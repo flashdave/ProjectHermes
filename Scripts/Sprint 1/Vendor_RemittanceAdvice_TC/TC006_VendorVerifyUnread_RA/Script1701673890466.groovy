@@ -28,6 +28,8 @@ import java.text.SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('Sprint 1/Login_TC/TC004_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
 
+def unreadCount = WebUI.getText(findTestObject('Object Repository/Page_Homescreen/RA_unreadCount'))
+
 WebUI.click(findTestObject('Object Repository/Page_Homescreen/menu_Reports'))
 
 WebUI.click(findTestObject('Object Repository/Page_Homescreen/subMenu_Remittance Advice'), FailureHandling.STOP_ON_FAILURE)
@@ -36,13 +38,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Remittance Advice
 
 def accountName = WebUI.getText(findTestObject("Object Repository/Page_Remittance Advice/UserAccountName"))
 
-println "$accountName"
-
-def isMatch = false
-
-def todaysDate = new Date()
-SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm")
-String formattedDateTime = dateFormat.format(todaysDate)
+List<String> unreadStatus = []
 
 WebDriver driver = DriverFactory.getWebDriver()
 //locate table
@@ -62,114 +58,35 @@ for (int row = 0; row < rows_count; row++) {
 	
 	println((('Number of cells In Row ' + row) + ' are ') + columns_count)
 	
-	String vendor_RAnumber = Columns_row.get(3).getText()
-	String vendor_voucherNum = Columns_row.get(4).getText()
+
 	String vendor_Status = Columns_row.get(7).getText()
 	
-	println "$vendor_RAnumber, $vendor_voucherNum, $vendor_Status"
 	
-	if (vendor_RAnumber == "74303" && vendor_voucherNum == "42030" && vendor_Status == "Unread") {
+	
+	if (vendor_Status == "Unread") {
+	
+		println "Vendor status is: $vendor_Status"
+		unreadStatus.add(vendor_Status)
 		
-		def fileName = Columns_row.get(6).getText()
-		println "$fileName"
-		Columns_row.get(6).findElement(By.tagName('span')).click();
-
-		
-		WebUI.waitForAlert(3)
-		WebUI.verifyAlertPresent(3)
-		
-		def confirmationMessage = WebUI.getAlertText()
-		WebUI.verifyMatch(confirmationMessage, 'Are you sure you want to download this file ?', false)
-		
-		WebUI.acceptAlert()
-		
-		formattedDateTime = dateFormat.format(todaysDate)
-		
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Remittance Advice/bannerMsg_File is successfully downloaded'), 'File is successfully downloaded.')
-		
-		println "$formattedDateTime"
-		File downloadedFile = new File("C:\\Users\\User\\Downloads\\")
-		File[] fileCounts = downloadedFile.listFiles()
-		def verifyFile = false
-		
-		for (int i = 0; i<fileCounts.size(); i++) {
-			
-			String downloadedFiles = fileCounts[i].getName()
-			
-			if (downloadedFiles == fileName) {
-				
-				println "$downloadedFiles and $fileName are matched"
-				
-				verifyFile = true
-				
-				break;
-			}
-			else {
-				
-				println "$downloadedFiles and $fileName are not match"
-				
-				verifyFile = false
-				
-			}	
-		
-		}
-		
-		assert verifyFile == true
-		
-		isMatch = true
-		break;
 		
 	}
 	
 	else {
 		 
-		println "Vendor is not existing in this row"
+		println "Vendor status is $vendor_Status"
 		
-		isMatch = false
 		
 	}
 	
 }
 
-assert isMatch == true
+def countUnReadRecords = 0
 
-WebUI.delay(5)
-
-Table = driver.findElement(By.xpath('//*[@id="RATable"]/tbody'))
- //To locate rows of table it will Capture all the rows available in the table
-table_row = Table.findElements(By.tagName('tr'))
- //To calculate no of rows In table
-rows_count = table_row.size()
-for (row = 0; row < rows_count; row++) {
-	//To locate columns(cells) of that specific row
-	Columns_row = table_row.get(row).findElements(By.tagName('td'))
-	
-	//To calculate no of columns(cells) In that specific row
-	columns_count = Columns_row.size()
-	
-	println((('Number of cells In Row ' + row) + ' are ') + columns_count)
-	
-	vendor_RAnumber = Columns_row.get(3).getText()
-	vendor_voucherNum = Columns_row.get(4).getText()
-	vendor_Status = Columns_row.get(7).getText()
-	String read_Date = Columns_row.get(8).getText()
-	String read_By = Columns_row.get(9).getText()
-	
-	println "$vendor_RAnumber, $vendor_voucherNum,  $vendor_Status"
-	
-	if (vendor_RAnumber == "74303" && vendor_voucherNum == "42030" && vendor_Status == "Read" && read_Date == formattedDateTime && read_By == accountName ) {
-		println "Vendor details are: $vendor_RAnumber, $vendor_voucherNum, $vendor_Status, $read_Date, $read_By"
-		
-		isMatch = true
-		
-		break;
-	}
-	
-	else {
-		println "Vendor Status not match"
-		
-		isMatch = false
-	}
-	
+unreadStatus.each { row ->
+        countUnReadRecords++
 }
-assert isMatch == true
+
+println "Number of records with 'UnRead': $countUnReadRecords"
+
+WebUI.verifyEqual(unreadCount, countUnReadRecords)
+

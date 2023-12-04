@@ -68,37 +68,41 @@ for (int row = 0; row < rows_count; row++) {
 	
 	println "$vendor_RAnumber, $vendor_voucherNum, $vendor_Status"
 	
-	if (vendor_RAnumber == "74303" && vendor_voucherNum == "42030" && vendor_Status == "Unread") {
+	if (vendor_RAnumber == "74306" && vendor_voucherNum == "41652" && vendor_Status == "Unread") {
+	
+		Columns_row.get(0).findElement(By.className('checkbox')).click();
 		
-		def fileName = Columns_row.get(6).getText()
-		println "$fileName"
-		Columns_row.get(6).findElement(By.tagName('span')).click();
-
+		WebUI.click(findTestObject('Object Repository/Page_Remittance Advice/button_Download'))
 		
 		WebUI.waitForAlert(3)
 		WebUI.verifyAlertPresent(3)
-		
 		def confirmationMessage = WebUI.getAlertText()
-		WebUI.verifyMatch(confirmationMessage, 'Are you sure you want to download this file ?', false)
+		
+		WebUI.verifyMatch(confirmationMessage, "Are you sure you want to Download all selected vendors' Remittance Advice?", false)
 		
 		WebUI.acceptAlert()
 		
 		formattedDateTime = dateFormat.format(todaysDate)
 		
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Remittance Advice/bannerMsg_File is successfully downloaded'), 'File is successfully downloaded.')
+		//WebUI.verifyElementText(findTestObject('Object Repository/Page_Remittance Advice/bannerMsg_File is successfully downloaded'), 'File is successfully downloaded.')
 		
 		println "$formattedDateTime"
+		
+		WebUI.delay(3)
 		File downloadedFile = new File("C:\\Users\\User\\Downloads\\")
 		File[] fileCounts = downloadedFile.listFiles()
 		def verifyFile = false
-		
+		SimpleDateFormat FiledateFormat = new SimpleDateFormat("MM-dd-yyyy")
+		String formattedFileDate = FiledateFormat.format(todaysDate)
+		String formattedFileName = "RA_" + formattedFileDate + ".zip"
+		println "$formattedFileName"
 		for (int i = 0; i<fileCounts.size(); i++) {
 			
 			String downloadedFiles = fileCounts[i].getName()
 			
-			if (downloadedFiles == fileName) {
+			if (downloadedFiles == formattedFileName) {
 				
-				println "$downloadedFiles and $fileName are matched"
+				println "$downloadedFiles and $formattedFileName are matched"
 				
 				verifyFile = true
 				
@@ -106,7 +110,7 @@ for (int row = 0; row < rows_count; row++) {
 			}
 			else {
 				
-				println "$downloadedFiles and $fileName are not match"
+				println "$downloadedFiles and $formattedFileName are not match"
 				
 				verifyFile = false
 				
@@ -133,7 +137,7 @@ for (int row = 0; row < rows_count; row++) {
 
 assert isMatch == true
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 Table = driver.findElement(By.xpath('//*[@id="RATable"]/tbody'))
  //To locate rows of table it will Capture all the rows available in the table
@@ -157,7 +161,7 @@ for (row = 0; row < rows_count; row++) {
 	
 	println "$vendor_RAnumber, $vendor_voucherNum,  $vendor_Status"
 	
-	if (vendor_RAnumber == "74303" && vendor_voucherNum == "42030" && vendor_Status == "Read" && read_Date == formattedDateTime && read_By == accountName ) {
+	if (vendor_RAnumber == "74306" && vendor_voucherNum == "41652" && vendor_Status == "Read" && read_Date == formattedDateTime && read_By == accountName ) {
 		println "Vendor details are: $vendor_RAnumber, $vendor_voucherNum, $vendor_Status, $read_Date, $read_By"
 		
 		isMatch = true

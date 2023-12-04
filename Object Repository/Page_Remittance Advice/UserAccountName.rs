@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UserAccountName</name>
+   <tag></tag>
+   <elementGuidId>1d99727b-5181-4156-aa79-5aa4a69ca860</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.margin-left-s > span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b2-$b4&quot;)/div[@class=&quot;user-info&quot;]/div[1]/div[@class=&quot;margin-left-s&quot;]/span[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-$b4']/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0ea0f516-5e39-44ae-bf70-b8213385b0f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KOHL INDUSTRIES CORPORATION</value>
+      <webElementGuid>1e805955-02cb-4426-9efd-99395ab35f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-$b4&quot;)/div[@class=&quot;user-info&quot;]/div[1]/div[@class=&quot;margin-left-s&quot;]/span[1]</value>
+      <webElementGuid>89928866-d104-4eeb-b9dc-1f3c0ffd694e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-$b4']/div/div/div/span</value>
+      <webElementGuid>d048654b-27b6-4204-a8d6-d0ded9b3276b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[2]/following::span[1]</value>
+      <webElementGuid>9412fe0d-64cb-4e72-b8a9-e66abefbd789</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Form 2307'])[1]/following::span[2]</value>
+      <webElementGuid>d776b42c-6e25-43cb-8dd9-83ee05ecc1d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::span[1]</value>
+      <webElementGuid>0cff7aa3-30a4-457a-96f6-92e4d6f76dce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[3]/preceding::span[2]</value>
+      <webElementGuid>96351912-c5e6-4f0e-add6-65054ba55d39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='KOHL INDUSTRIES CORPORATION']/parent::*</value>
+      <webElementGuid>8194c3b6-b416-43a7-864f-d3a963ec1d49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/span</value>
+      <webElementGuid>4b9149e4-0048-4f58-9edf-17c30692b52c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'KOHL INDUSTRIES CORPORATION' or . = 'KOHL INDUSTRIES CORPORATION')]</value>
+      <webElementGuid>b5637e2f-5e3e-432f-9a60-a13912e5d524</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_VendorRADownload_ClickTickBox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7b30537-666f-44ac-a950-c97ef3777254</testCaseGuid>
+</TestCaseEntity>
