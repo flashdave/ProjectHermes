@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Vendor Code</name>
+   <tag></tag>
+   <elementGuidId>c8c1acc4-7c3f-417f-b769-bd0bf3e81ded</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[3]/following::div[5]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b3-Column1&quot;)[count(. | //div[@class = 'columns-item' and @id = 'b3-Column1' and (text() = 'Vendor Code' or . = 'Vendor Code')]) = count(//div[@class = 'columns-item' and @id = 'b3-Column1' and (text() = 'Vendor Code' or . = 'Vendor Code')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b3-Column1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>09acf47c-93d9-4c0c-b72a-2b7b10e35faa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>columns-item</value>
+      <webElementGuid>858c2526-f237-4303-8f06-b1035be306ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-Column1</value>
+      <webElementGuid>8ca1ff63-0ba2-4ac4-8fd1-976731a2b341</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vendor Code</value>
+      <webElementGuid>e15dbedc-0bc3-4721-9d34-92dda8952987</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-Column1&quot;)</value>
+      <webElementGuid>ab19cc57-edc2-4789-8985-262567cc2cdf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b3-Column1']</value>
+      <webElementGuid>aa9ffc68-38c1-4da9-a012-272fe9f2c526</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='$b3']/div/div</value>
+      <webElementGuid>353ac729-8b1e-40b3-a476-95dd24345693</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[3]/following::div[5]</value>
+      <webElementGuid>6787a65b-4818-41b5-9005-d38da630536d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::div[11]</value>
+      <webElementGuid>ff2d4659-e1a3-4dc3-a1b1-bd44401c1234</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Name'])[1]/preceding::div[1]</value>
+      <webElementGuid>8832eb7c-66e9-4fd9-80af-eca6135f4ae6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Vendor Code']/parent::*</value>
+      <webElementGuid>c669cdcb-a6c6-4581-855a-4ae28ea7d939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div</value>
+      <webElementGuid>37d975f4-db36-443c-8365-a3b02b4ec913</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b3-Column1' and (text() = 'Vendor Code' or . = 'Vendor Code')]</value>
+      <webElementGuid>bb5e6090-b0be-4745-9007-0762e71f3e41</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Vendor Name_input-search</name>
+   <tag></tag>
+   <elementGuidId>5d6b1433-e143-468d-9787-ef21d2cd7f77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;Input_VendorName2&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b3-Column2 > span.input-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>479cfd33-5d6f-46e2-90cf-64563b3ee163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-search</value>
+      <webElementGuid>0f32bcb7-bbc4-4464-9695-71b7ccec77e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-Column2&quot;)/span[@class=&quot;input-search&quot;]</value>
+      <webElementGuid>22d02128-36f3-4f54-a2c7-37c197314303</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-Column2']/span</value>
+      <webElementGuid>0b81462d-7204-479b-9017-dec3e24c5f19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Name'])[1]//span[1]</value>
+      <webElementGuid>144d6997-2d69-4dd0-a0c8-ded20eea4d72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Code'])[1]/following::span[1]</value>
+      <webElementGuid>6f4e9b6a-4e92-4e3d-9013-a40a3d7fc68e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>25a936e3-c734-4412-a1fb-48f81a8f4d95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

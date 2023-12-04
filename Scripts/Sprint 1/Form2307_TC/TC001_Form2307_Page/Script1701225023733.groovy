@@ -17,7 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://10.143.206.85/NTVP_Reports/RemittanceAdvice')
+WebUI.callTestCase(findTestCase('Sprint 1/Login_TC/TC003_LoginValidCredentials_Admin'), [:], FailureHandling.STOP_ON_FAILURE)
 

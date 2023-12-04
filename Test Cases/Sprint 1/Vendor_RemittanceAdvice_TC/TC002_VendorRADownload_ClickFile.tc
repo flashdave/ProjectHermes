@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_VendorRADownload_ClickFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0589d03-ed95-4157-9b24-bf9e0c7da9da</testCaseGuid>
+</TestCaseEntity>

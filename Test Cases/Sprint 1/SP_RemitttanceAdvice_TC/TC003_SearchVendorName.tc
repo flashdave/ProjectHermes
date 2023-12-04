@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_SearchVendorName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bc0ce7d-dcdb-492b-8293-2d007ff49271</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3df1136-4a39-4bf8-9e4b-77f9d73bda3a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('vendor_Details').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>c3df1136-4a39-4bf8-9e4b-77f9d73bda3a</id>
+      <masked>false</masked>
+      <name>vendor_name</name>
+   </variable>
+</TestCaseEntity>

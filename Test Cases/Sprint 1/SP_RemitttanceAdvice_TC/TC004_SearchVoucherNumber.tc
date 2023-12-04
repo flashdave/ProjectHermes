@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_SearchVoucherNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b95cfab8-f575-4f99-87e3-2b487518db7f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87b24cf1-62eb-4c0e-8347-ae78baff61d6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('vendor_Details').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>87b24cf1-62eb-4c0e-8347-ae78baff61d6</id>
+      <masked>false</masked>
+      <name>vendor_voucherNumber</name>
+   </variable>
+</TestCaseEntity>

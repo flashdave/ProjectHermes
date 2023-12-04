@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_SearchRANumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>131b858d-bb05-4d0e-9e68-60b7f71f5954</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df2ae3a7-bcf5-473c-aaf7-93c94af5d229</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('vendor_Details').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>df2ae3a7-bcf5-473c-aaf7-93c94af5d229</id>
+      <masked>false</masked>
+      <name>vendor_RAnumber</name>
+   </variable>
+</TestCaseEntity>

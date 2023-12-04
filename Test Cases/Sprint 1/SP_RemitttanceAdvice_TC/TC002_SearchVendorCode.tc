@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_SearchVendorCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7c41547-62c6-4a98-aacc-0e676e1b8250</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37dc4af6-4508-4daf-bc95-cea182f9e995</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('VendorCode').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>37dc4af6-4508-4daf-bc95-cea182f9e995</id>
+      <masked>false</masked>
+      <name>vendor_code</name>
+   </variable>
+</TestCaseEntity>

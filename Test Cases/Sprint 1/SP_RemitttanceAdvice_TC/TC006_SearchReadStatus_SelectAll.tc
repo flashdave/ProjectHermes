@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_SearchReadStatus_SelectAll</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9eddb2aa-3fe6-4d02-a70a-f25109f10ec0</testCaseGuid>
+</TestCaseEntity>

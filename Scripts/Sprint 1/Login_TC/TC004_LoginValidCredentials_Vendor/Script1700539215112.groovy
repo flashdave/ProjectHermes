@@ -19,13 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('')
+WebUI.navigateToUrl(GlobalVariable.URL_vendor)
 
-WebUI.setText(findTestObject(null), '')
+WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username'), GlobalVariable.vendor_username)
 
-WebUI.setMaskedText(findTestObject(null), '')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password'), GlobalVariable.vendor_password)
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
 
-WebUI.verifyElementText(findTestObject(null), '')
+WebUI.navigateToUrl('https://10.143.206.85/NonTradeVendorPortal/')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Home'), 'Home')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Reports'), 'Reports')
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/menu_Admin'), 2)
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/menu_Upload'), 2)
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/menu_Audit Trail'), 2)
+
+
 

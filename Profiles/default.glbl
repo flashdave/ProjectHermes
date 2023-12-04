@@ -6,7 +6,52 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'dev.os.watsonsph.corp'</initValue>
-      <name>URL</name>
+      <initValue>'https://10.143.206.85/NTVP_TH/Login'</initValue>
+      <name>URL_vendor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://10.143.206.85/watsonsauthentication/'</initValue>
+      <name>URL_watsons</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tesiadmin@watsons.com.ph'</initValue>
+      <name>watsons_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xngilo02Z2BNHXedMmXvHw=='</initValue>
+      <name>watsons_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1075955_VP'</initValue>
+      <name>vendor_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xngilo02Z2BNHXedMmXvHw=='</initValue>
+      <name>vendor_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rowell.codizal@tesi.com.ph'</initValue>
+      <name>AP_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xngilo02Z2BNHXedMmXvHw=='</initValue>
+      <name>AP_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mobarak.dimalotang@tesi.com.ph'</initValue>
+      <name>admin_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xngilo02Z2BNHXedMmXvHw=='</initValue>
+      <name>admin_password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

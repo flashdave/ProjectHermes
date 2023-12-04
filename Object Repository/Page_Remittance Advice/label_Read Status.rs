@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Read Status</name>
+   <tag></tag>
+   <elementGuidId>950fd183-224d-4d56-9d8a-fadc4a8651f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b13-Column3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;b13-Column3&quot;][count(. | //div[@class = 'columns-item' and @id = 'b13-Column3' and (text() = 'Read Status' or . = 'Read Status')]) = count(//div[@class = 'columns-item' and @id = 'b13-Column3' and (text() = 'Read Status' or . = 'Read Status')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b13-Column3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ee7021bc-8d54-4442-b1fd-5e1fd7849f45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>columns-item</value>
+      <webElementGuid>cb89e1c6-d18a-4aad-8ac1-e8ced7d79a5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b13-Column3</value>
+      <webElementGuid>68cd89cb-6518-4dad-bf38-2902a0ad4279</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Read Status</value>
+      <webElementGuid>786ba887-d5c3-474c-9279-893ba27db497</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;b13-Column3&quot;]</value>
+      <webElementGuid>a06470da-b02b-4189-8892-13471c8ac513</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b13-Column3']</value>
+      <webElementGuid>08f19898-ec30-48b1-beea-31c1ce04898c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='$b13']/div/div[3]</value>
+      <webElementGuid>3ee9dbfe-7229-4340-9612-5d284127bd57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RA Number'])[1]/following::div[1]</value>
+      <webElementGuid>d1c32f99-c63b-43cd-b912-4e9e25db56aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Voucher Number'])[1]/following::div[2]</value>
+      <webElementGuid>675aa401-a798-4997-8d36-17d86b106047</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::div[2]</value>
+      <webElementGuid>c43c552e-5cb9-4c6e-b926-f84d10e5fb8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::div[2]</value>
+      <webElementGuid>b42f2077-9093-4f02-a110-258347fee14d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Read Status']/parent::*</value>
+      <webElementGuid>5d65740e-9f51-4fb5-8549-8bae23a45deb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]</value>
+      <webElementGuid>e3c82add-e904-4ad5-8dbd-860f1b9bff76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b13-Column3' and (text() = 'Status')]</value>
+      <webElementGuid>806aa8a6-6748-45c3-b3f3-b8b4ddc8cdfc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
