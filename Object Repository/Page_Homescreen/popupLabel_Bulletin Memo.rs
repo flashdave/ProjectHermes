@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popupLabel_Bulletin Memo</name>
+   <tag></tag>
+   <elementGuidId>dacd97fd-12f7-474d-bfd9-e1c9b5f48aa1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='BulletinMemoPopUp']/div/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ThemeGrid_Width7 > span.margin-left-s</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>15ed33ce-7671-4a4a-9d2c-984a4ddc52b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>margin-left-s</value>
+      <webElementGuid>67a1d91e-b060-4274-a1c5-89ef3bc9ed81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bulletin Memo</value>
+      <webElementGuid>e9f302ce-0c61-4e9f-a440-843d31bc4c65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;BulletinMemoPopUp&quot;)/div[@class=&quot;popup-content&quot;]/div[@class=&quot;padding-s&quot;]/div[@class=&quot;padding-s&quot;]/div[@class=&quot;ThemeGrid_Width7&quot;]/span[@class=&quot;margin-left-s&quot;]</value>
+      <webElementGuid>e974355a-9d11-4a90-aa62-56bc26ffb7f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='BulletinMemoPopUp']/div/div/div/div/span</value>
+      <webElementGuid>743734b0-bbda-41f5-a797-cb48eb10e784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'l6-4_5-ListItem6', '&quot;', ')')])[1]/following::span[1]</value>
+      <webElementGuid>b7c921d8-9825-4024-8cfc-69313ed4af58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[1]</value>
+      <webElementGuid>8febacd0-b235-430d-bc98-1f63d5c9b88a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 11/21/2023 -'])[1]/preceding::span[1]</value>
+      <webElementGuid>c13263ef-5803-4f93-a197-bb706b9463b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 11/22/2023 -'])[1]/preceding::span[3]</value>
+      <webElementGuid>7aca9fa9-111c-4a15-9178-2186e5691b4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/div/span</value>
+      <webElementGuid>15c5785d-f3ca-4240-8da6-8060850fb4f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Bulletin Memo' or . = 'Bulletin Memo')]</value>
+      <webElementGuid>fcce1580-28a2-4910-8de6-56193ca7d7bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

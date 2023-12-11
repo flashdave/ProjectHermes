@@ -30,7 +30,7 @@ WebUI.callTestCase(findTestCase('Sprint 1/Login_TC/TC004_LoginValidCredentials_V
 
 WebUI.click(findTestObject('Object Repository/Page_Homescreen/menu_Reports'))
 
-WebUI.click(findTestObject('Object Repository/Page_Homescreen/subMenu_Remittance Advice'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Homescreen/tileLabel_Remittance Advice'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Remittance Advice/titlePage_Remittance Advice'), 'Remittance Advice')
 

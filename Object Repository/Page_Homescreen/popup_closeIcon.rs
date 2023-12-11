@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup_closeIcon</name>
+   <tag></tag>
+   <elementGuidId>d2ca3593-7217-4046-990f-6c27273fb850</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div/div/div/div[2]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.margin-top-s.margin-right-s.fa.fa-times.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>65dad0a0-4c52-400b-a2fb-f35a27d974ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon margin-top-s margin-right-s fa fa-times fa-1x</value>
+      <webElementGuid>5439f693-d5ec-475f-b696-923542bcc694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;RAPopUp&quot;)/div[@class=&quot;popup-content&quot;]/div[@class=&quot;padding-s&quot;]/div[@class=&quot;padding-s&quot;]/div[@class=&quot;ThemeGrid_Width5 ThemeGrid_MarginGutter&quot;]/a[1]/i[@class=&quot;icon margin-top-s margin-right-s fa fa-times fa-1x&quot;]</value>
+      <webElementGuid>e9ef49bf-4cdb-481f-96ef-152676d2d549</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RAPopUp']/div/div/div/div[2]/a/i</value>
+      <webElementGuid>7143bcfa-179d-4279-8c27-2d75ec262ac4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[2]/a/i</value>
+      <webElementGuid>685ed6dc-e104-4f29-a51b-2af9fc58116a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

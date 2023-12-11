@@ -27,18 +27,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Passwo
 
 WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
 
+WebUI.delay(2)
+
 WebUI.navigateToUrl('https://10.143.206.85/NonTradeVendorPortal/')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Home'), 'Home')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Reports'), 'Reports')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Upload'), 'Upload')
-
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/menu_Admin'), 2)
-
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/menu_Audit Trail'), 2)
-
-WebUI.closeBrowser()

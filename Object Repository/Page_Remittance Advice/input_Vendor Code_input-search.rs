@@ -6,16 +6,16 @@
    <elementGuidId>d6da5245-8d09-4486-9293-a91d3360a81e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Input_VendorCode2&quot;]</value>
+         <key>CSS</key>
+         <value>span.input-search</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>/html/body/div[1]/div/div/div[1]/div/div/div/div/div[3]/form/div[1]/div/div[1]/span/input[count(. | //input[@class = 'form-control OSFillParent' and @type = 'search' and @placeholder = 'Enter Vendor Code' and @aria-required = 'false' and @aria-describedby = 'aria-describedby=&quot;Input_VendorCode2_DescribedBy&quot;' and @maxlength = '50' and @value id = 'Input_VendorCode2' and @style = 'user-select: auto;']) = count(//input[@class = 'form-control OSFillParent' and @type = 'search' and @placeholder = 'Enter Vendor Code' and @aria-required = 'false' and @aria-describedby = 'aria-describedby=&quot;Input_VendorCode2_DescribedBy&quot;' and @maxlength = '50' and @value id = 'Input_VendorCode2' and @style = 'user-select: auto;'])]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.input-search</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div[1]/div/div/div/div/div[3]/form/div[1]/div/div[2]/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>916ea51d-c8d7-463a-8390-6b93d43a87fe</webElementGuid>
+      <webElementGuid>33d2cf3a-63f2-4295-818e-c694f0769f08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>e6972102-4680-4d08-b976-6b6cd0f99ac0</webElementGuid>
+      <webElementGuid>20a79bf1-5d26-49c2-ae4a-9dda60b2bddd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>e5ee55ea-9d59-400a-9fce-9ba2e875b12f</webElementGuid>
+      <webElementGuid>df2e1506-4d60-47d8-9800-7bd92f741e45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter Vendor Code</value>
-      <webElementGuid>e6f0d1f9-abe4-43d2-9184-de430128638d</webElementGuid>
+      <webElementGuid>f119b813-c2f8-428c-a503-3678a5adda5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>73818406-c32c-4d47-8f01-645569b5f0ac</webElementGuid>
+      <webElementGuid>770640fb-a4a8-4b1b-adb2-ae4c8a056806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>aria-describedby=&quot;Input_VendorCode2_DescribedBy&quot;</value>
-      <webElementGuid>31a82b0d-f954-4e92-8f4b-c58a1f0bd6fc</webElementGuid>
+      <webElementGuid>4ab9d366-d8e7-4638-9a4b-97c3b4af0127</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>fd55c26c-a7f8-4472-9802-08835df2dff6</webElementGuid>
+      <webElementGuid>04aa7d44-6378-48ad-82c7-fcf297f813e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>value id</name>
       <type>Main</type>
       <value>Input_VendorCode2</value>
-      <webElementGuid>88ab8257-08dd-45c3-860f-b5b94cc2956b</webElementGuid>
+      <webElementGuid>2fd30d0e-7c4c-4167-be6d-98558c26afd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>style</name>
       <type>Main</type>
       <value>user-select: auto;</value>
-      <webElementGuid>5025b2fa-7975-45bd-b44e-975b603b7368</webElementGuid>
+      <webElementGuid>cc0b9385-3583-47f9-a9e9-30057c412e8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/div[1]/div/div/div[1]/div/div/div/div/div[3]/form/div[1]/div/div[1]/span/input</value>
-      <webElementGuid>21ca9f30-b40b-4c68-ba5e-8d23dc3c9469</webElementGuid>
+      <webElementGuid>84609825-acd0-4906-b8c6-8e893fdf9bf0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b3-Column1']/span</value>
-      <webElementGuid>fa6ff47b-470d-4c98-b8df-f119e0e1a20b</webElementGuid>
+      <webElementGuid>98126d33-2935-4336-b472-f4e5a8b7a52e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Code'])[1]//span[1]</value>
-      <webElementGuid>96c247e8-d279-4e73-b18f-be76f405b258</webElementGuid>
+      <webElementGuid>948bb1f4-8790-4028-957a-376b1a5f0507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[3]/following::span[1]</value>
-      <webElementGuid>80e1b4d6-2d79-4322-a20c-b803b65e125a</webElementGuid>
+      <webElementGuid>005a7c75-c8fc-49e4-bca8-ed9469b295e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Name'])[1]/preceding::span[1]</value>
-      <webElementGuid>1c81aa6e-6b9f-4e99-b0a3-3e7a84e35445</webElementGuid>
+      <webElementGuid>aa885857-9a7a-4427-8270-d4e049fa5ccd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/div/span</value>
-      <webElementGuid>7e44c585-089f-4fb2-a3a7-3ef20a902091</webElementGuid>
+      <webElementGuid>f280e30d-13cf-4116-ae1e-19bae287a09f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='b2-b3-Menu']/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor User'])[1]/preceding::span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

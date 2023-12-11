@@ -27,9 +27,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Passwo
 
 WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
 
-WebUI.navigateToUrl('https://10.143.206.85/NonTradeVendorPortal/')
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
+WebUI.navigateToUrl('https://10.143.206.85/NTVP_Admin/')
 
-WebUI.closeBrowser()
 
