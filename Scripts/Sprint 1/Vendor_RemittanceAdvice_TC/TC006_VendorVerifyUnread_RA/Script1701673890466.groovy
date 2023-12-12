@@ -26,7 +26,7 @@ import com.kms.katalon.core.helper.KeywordHelper as KeywordHelper
 import org.openqa.selenium.JavascriptExecutor
 import java.text.SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('Sprint 1/Login_TC/TC004_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sprint 1/VendorPortal_Login_TC/TC004_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def unreadCount = WebUI.getText(findTestObject('Object Repository/Page_Homescreen/RA_unreadCount'))
 

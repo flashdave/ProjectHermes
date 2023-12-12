@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import org.apache.commons.io.FileUtils as FileUtils
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
-WebUI.callTestCase(findTestCase('Sprint 1/Login_TC/TC001_LoginValidCredentials_SP'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Homescreen/menu_Reports'))
 

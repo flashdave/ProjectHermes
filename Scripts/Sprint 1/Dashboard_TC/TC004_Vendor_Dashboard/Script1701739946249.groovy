@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Sprint 1/Login_TC/TC004_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sprint 1/VendorPortal_Login_TC/TC004_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
 
@@ -34,12 +34,20 @@ WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/
 //elements in the Remittance Advice tile
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_UnreadRA'), 0) //unread counter
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tileIconRA_Inbox'), 0) //icon
+
+WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/tileIconRA_Inbox'))
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/tileLabel_Remittance Advice'), 'Remittance Advice') //tile label
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_RA_View All'), 0) //viewAll button
 
 //elements in the Bulletin Memo tile
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_UnreadBM'), 0) //unread counter
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tileIconBM_Inbox'), 0) //icon
+
+WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/tileIconBM_Inbox'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/tileLabel_BulletinMemo'), 'Bulletin Memo') //tile label
 
@@ -48,6 +56,10 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/but
 //elements in the Form 2307 tile
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_UnreadForm2307'), 0) //unread counter
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tileIconForm2307_Inbox'), 0) //icon
+
+WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/tileIconForm2307_Inbox'))
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/tileLabel_Form 2307'), 'Form 2307') //tile label
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_Form2307_View All'), 0) //viewAll button
@@ -55,10 +67,13 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/but
 //elements in the Tickets tile
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_UnreadTickets'), 0) //unread counter
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tileIconTickets_Inbox'), 0) //icon
+
+WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/tileIconTickets_Inbox'))
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/tileLabel_Tickets'), 'Tickets') //tile label
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_Tickets_View All'), 0) //viewAll button
 
 
 WebUI.closeBrowser()
-

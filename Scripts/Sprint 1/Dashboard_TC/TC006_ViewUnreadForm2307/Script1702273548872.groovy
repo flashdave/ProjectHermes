@@ -26,7 +26,7 @@ import com.kms.katalon.core.helper.KeywordHelper as KeywordHelper
 import org.openqa.selenium.JavascriptExecutor
 import java.text.SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('Sprint 1/Login_TC/TC001_LoginValidCredentials_SP'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
 

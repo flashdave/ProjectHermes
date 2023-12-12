@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InvalidPage_Invalid Permissions</name>
+   <tag></tag>
+   <elementGuidId>c8e49d21-3c88-486f-95fb-f74974b06b25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#LiverpoolTheme_wt10_block_wtTitle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='LiverpoolTheme_wt10_block_wtTitle']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c2bfbbf2-7b17-461a-8eef-346ab8d58b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>LiverpoolTheme_wt10_block_wtTitle</value>
+      <webElementGuid>c9d074e9-7a8b-487e-ae23-1bf799caba7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Heading1 Title PH OSInline</value>
+      <webElementGuid>60de6725-9746-44a1-aa5b-d50440eedeb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid Permissions</value>
+      <webElementGuid>a44f4f37-ddb3-4eb8-add5-5f24c94606f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;LiverpoolTheme_wt10_block_wtTitle&quot;)</value>
+      <webElementGuid>4a23ba5a-2eea-46e9-bdb4-79d73717e291</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='LiverpoolTheme_wt10_block_wtTitle']</value>
+      <webElementGuid>1cefab25-e8a6-4084-ad62-cde5728fb600</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='WebForm1']/div[3]/div[2]/div/div/div</value>
+      <webElementGuid>8cd6f7b5-d375-4541-b238-d4c82c933c88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/following::div[6]</value>
+      <webElementGuid>2b4e2f10-a664-41b4-a84f-bcf043795f22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operating Unit'])[1]/following::div[9]</value>
+      <webElementGuid>394f5ac3-3315-4f64-91d4-4b280ce2aa37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cloud Development Resources'])[1]/preceding::div[3]</value>
+      <webElementGuid>2d175ecc-89fa-4d5e-a7f6-d634b86817fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>d969ac03-7393-428a-a7cf-9eb2abb45825</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'LiverpoolTheme_wt10_block_wtTitle' and (text() = 'Invalid Permissions' or . = 'Invalid Permissions')]</value>
+      <webElementGuid>ef284d56-7b93-4604-a695-be6c7c8867b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

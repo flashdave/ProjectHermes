@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tileIconRA_Inbox</name>
+   <tag></tag>
+   <elementGuidId>9ae57bee-c061-44c9-89c1-bcce3b112a1b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-envelope-o.fa-4x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-Column2']/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>efeb9ddb-e916-4c84-9b98-a496152a99c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-envelope-o fa-4x</value>
+      <webElementGuid>ca5b0cb8-1f76-442e-b389-dcd6ce4ace98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-Column2&quot;)/div[@class=&quot;margin-top-m&quot;]/i[@class=&quot;icon fa fa-envelope-o fa-4x&quot;]</value>
+      <webElementGuid>0de4a984-ab14-4bb4-98f9-57c759baadf9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-Column2']/div/i</value>
+      <webElementGuid>d86b33fc-a400-4c42-88a8-7ae9659a43f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/i</value>
+      <webElementGuid>eb3ba5ae-319a-474b-b660-b47a0c642c48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

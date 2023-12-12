@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>containerLabel_Watsons Project Hermes</name>
+   <tag></tag>
+   <elementGuidId>b5661ea5-450a-4cb3-badb-c060e7bc0705</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f3c6741a-0018-4382-9772-cc1b1104b094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName</value>
+      <webElementGuid>52df203e-8d60-4823-8676-9c44ab27c4fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Watsons Project Hermes</value>
+      <webElementGuid>e9343e86-dd61-43a1-8037-efe5eddeeaae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName&quot;)</value>
+      <webElementGuid>12bdd410-a733-487a-8ba0-400b497a06bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName']</value>
+      <webElementGuid>90c3757d-f087-4fb2-848f-c7976612cb04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wt13']/div/div[2]/span</value>
+      <webElementGuid>dfcdd1aa-79a0-4307-b1e0-c472894cc58b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons Darwin Solomon'])[1]/following::span[1]</value>
+      <webElementGuid>fcc4ad96-7538-4285-87e4-023b857619d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons Handbook Theme'])[1]/following::span[2]</value>
+      <webElementGuid>a2176cfa-295c-417d-b968-fddfff8b8533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Watsons Project Hermes']/parent::*</value>
+      <webElementGuid>bd232fd2-b215-4e9d-8a1a-f88a44e98bff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[17]/div/div[2]/span</value>
+      <webElementGuid>54fd70d4-0b81-4a5b-b7bd-0c8b59005756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName' and (text() = 'Watsons Project Hermes' or . = 'Watsons Project Hermes')]</value>
+      <webElementGuid>fa8e53f5-9c5e-4a74-a1d9-12deffc47c3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

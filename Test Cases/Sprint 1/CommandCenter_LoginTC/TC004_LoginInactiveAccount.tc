@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_LoginInactiveAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>956ab486-76cd-4b80-b183-275d89d8468b</testCaseGuid>
+</TestCaseEntity>

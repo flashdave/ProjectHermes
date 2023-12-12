@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tesiadmin@watsons.com.ph'</initValue>
+      <initValue>'john.colis+1@tesi.com.ph'</initValue>
       <name>watsons_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'xngilo02Z2BNHXedMmXvHw=='</initValue>
+      <initValue>'P5k+p8A8pUQrhblKSHBMTToIR+E8gbN/'</initValue>
       <name>watsons_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
