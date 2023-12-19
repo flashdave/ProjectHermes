@@ -19,16 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL_vendor)
+WebUI.navigateToUrl(GlobalVariable.URL_commandCenter)
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username'), GlobalVariable.admin_username)
+WebUI.setText(findTestObject('Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username'), GlobalVariable.admin_username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password'), GlobalVariable.admin_password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password'), GlobalVariable.admin_password)
 
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login'))
 
-WebUI.delay(2)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER'), 'WATSONS COMMAND CENTER')
 
-WebUI.navigateToUrl('https://10.143.206.85/NTVP_Admin/')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/titleHeader_Select Application to access'), 
+    'Select Application to access')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Application List/APcontainer_Watsons Project Hermes'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/APcontainerLabel_Watsons Project Hermes'), 
+    'Watsons Project Hermes')
+
+WebUI.click(findTestObject('Object Repository/Page_Application List/APcontainerLabel_Watsons Project Hermes'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
+
 
 

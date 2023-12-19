@@ -12,7 +12,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://10.143.206.85/watsonsauthentication/'</initValue>
-      <name>URL_watsons</name>
+      <name>URL_commandCenter</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -46,12 +46,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mobarak.dimalotang@tesi.com.ph'</initValue>
+      <initValue>'mobarak.dimalotang+01@tesi.com.ph'</initValue>
       <name>admin_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'xngilo02Z2BNHXedMmXvHw=='</initValue>
+      <initValue>'P5k+p8A8pUQrhblKSHBMTToIR+E8gbN/'</initValue>
       <name>admin_password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

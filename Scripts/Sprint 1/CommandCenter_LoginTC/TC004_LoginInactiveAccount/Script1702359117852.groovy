@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL_watsons)
+WebUI.navigateToUrl(GlobalVariable.URL_commandCenter)
 
 WebUI.setText(findTestObject('Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username'), 'john.colis+2@tesi.com.ph')
 

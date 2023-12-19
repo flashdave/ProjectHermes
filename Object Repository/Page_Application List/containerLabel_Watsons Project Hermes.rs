@@ -6,12 +6,12 @@
    <elementGuidId>b5661ea5-450a-4cb3-badb-c060e7bc0705</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl34_wtExpression_ApplicationName&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName']</value>
+         <key>CSS</key>
+         <value>#LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f3c6741a-0018-4382-9772-cc1b1104b094</webElementGuid>
+      <webElementGuid>364b348d-296e-4105-a1a6-bafc411a3ef7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName</value>
-      <webElementGuid>52df203e-8d60-4823-8676-9c44ab27c4fd</webElementGuid>
+      <webElementGuid>54a29364-aab1-493c-834e-122d760b232e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Watsons Project Hermes</value>
-      <webElementGuid>e9343e86-dd61-43a1-8037-efe5eddeeaae</webElementGuid>
+      <webElementGuid>632e4e72-859b-4b5c-9c8b-742948274bed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName&quot;)</value>
-      <webElementGuid>12bdd410-a733-487a-8ba0-400b497a06bb</webElementGuid>
+      <webElementGuid>816def25-71e1-4122-bcb5-fc2303a09d77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName']</value>
-      <webElementGuid>90c3757d-f087-4fb2-848f-c7976612cb04</webElementGuid>
+      <webElementGuid>2e85eb67-48f3-45d7-b01e-2e87be2c203d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wt13']/div/div[2]/span</value>
-      <webElementGuid>dfcdd1aa-79a0-4307-b1e0-c472894cc58b</webElementGuid>
+      <webElementGuid>2f749cb4-d3f4-4b94-b089-89132d522cba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons Darwin Solomon'])[1]/following::span[1]</value>
-      <webElementGuid>fcc4ad96-7538-4285-87e4-023b857619d1</webElementGuid>
+      <webElementGuid>ceea06ee-bc72-4598-a6d7-9d6065b9a2b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons Handbook Theme'])[1]/following::span[2]</value>
-      <webElementGuid>a2176cfa-295c-417d-b968-fddfff8b8533</webElementGuid>
+      <webElementGuid>630a2de4-b104-4774-b413-e3cab6a67052</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Watsons Project Hermes']/parent::*</value>
-      <webElementGuid>bd232fd2-b215-4e9d-8a1a-f88a44e98bff</webElementGuid>
+      <webElementGuid>363ba7f9-954a-4f60-b8a6-cbdc29118403</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[17]/div/div[2]/span</value>
-      <webElementGuid>54fd70d4-0b81-4a5b-b7bd-0c8b59005756</webElementGuid>
+      <webElementGuid>9147c07e-c042-42e9-babe-f3e57ead3a37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = 'LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl32_wtExpression_ApplicationName' and (text() = 'Watsons Project Hermes' or . = 'Watsons Project Hermes')]</value>
-      <webElementGuid>fa8e53f5-9c5e-4a74-a1d9-12deffc47c3f</webElementGuid>
+      <webElementGuid>91142625-c58d-49cd-8f4a-e2b9192087e1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
