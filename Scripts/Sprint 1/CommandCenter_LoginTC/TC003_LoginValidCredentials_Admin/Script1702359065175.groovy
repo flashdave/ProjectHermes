@@ -32,14 +32,14 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/titleHeader_Select Application to access'), 
     'Select Application to access')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Application List/APcontainer_Watsons Project Hermes'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/APcontainerLabel_Watsons Project Hermes'), 
-    'Watsons Project Hermes')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal'), 
+    'Non-Trade Vendor Portal')
 
-WebUI.click(findTestObject('Object Repository/Page_Application List/APcontainerLabel_Watsons Project Hermes'))
+WebUI.click(findTestObject('Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access'), "Watson's User Role & Access")
 
 
 

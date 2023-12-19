@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>APcontainerLabel_Watsons Project Hermes</name>
+   <name>APcontainerLabel_Non-Trade Vendor Portal</name>
    <tag></tag>
-   <elementGuidId>f7f4fe63-480c-45be-8134-bbd0d082c697</elementGuidId>
+   <elementGuidId>7f039baa-8b82-4a15-a367-eb188a24467b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c85fb1cb-7091-4509-8e56-92a5fd3f14cc</webElementGuid>
+      <webElementGuid>d85ee61d-351f-4847-8eb2-ece7c67e39d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,15 @@
       <name>id</name>
       <type>Main</type>
       <value>LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl02_wtExpression_ApplicationName</value>
-      <webElementGuid>478cfdef-e09a-4f7e-8023-a171b132f43e</webElementGuid>
+      <webElementGuid>304d3704-4df6-470a-a7b9-620b8cca2eb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Watsons Project Hermes</value>
-      <webElementGuid>74e5f407-3900-473c-b2db-7341e97a9815</webElementGuid>
+      <value>Non-Trade Vendor Portal</value>
+      <webElementGuid>130b2f18-167e-4da6-a42e-e5f8e3ee7b51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl02_wtExpression_ApplicationName&quot;)</value>
-      <webElementGuid>0e2027de-8c1b-425f-86c6-e6b185e921ed</webElementGuid>
+      <webElementGuid>68b72f22-191f-46f8-8e55-c0419d6245b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl02_wtExpression_ApplicationName']</value>
-      <webElementGuid>61103ae9-a22c-447a-86b7-8f831cc9ecac</webElementGuid>
+      <webElementGuid>b98a86d9-3c1a-47d8-8536-3d49d71c25ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl02_wt13']/div/div[2]/span</value>
-      <webElementGuid>6a20f229-bb5e-4c11-b6c1-563b21fd8f37</webElementGuid>
+      <webElementGuid>6ca4d232-8252-4bca-9b81-a07539c80cb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons Teamwork+'])[1]/following::span[1]</value>
-      <webElementGuid>76bc6916-d87a-4f8a-a0a4-fbc8370594a9</webElementGuid>
+      <webElementGuid>fce32932-5da1-4dd3-b688-a4fda9ea33bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,15 +78,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Application to access'])[1]/following::span[3]</value>
-      <webElementGuid>5f56c289-79ad-48a9-9345-af86a093ff47</webElementGuid>
+      <webElementGuid>fe9e5876-0b3d-4649-92f3-dd3453fcade8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Watsons Project Hermes']/parent::*</value>
-      <webElementGuid>2187cf81-a8dc-4407-aa36-7ed7f8c5cd0d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Non-Trade Vendor Portal']/parent::*</value>
+      <webElementGuid>9dfc81e0-393e-48aa-b898-6a27f78fd412</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,14 +94,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]/div/div[2]/span</value>
-      <webElementGuid>a9d6ac1b-0b8c-4f8d-988c-fa9988a7f265</webElementGuid>
+      <webElementGuid>4d21b8b2-c7a7-4685-9d31-beb307e17015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[@id = 'LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl02_wtExpression_ApplicationName' and (text() = 'Watsons Project Hermes' or . = 'Watsons Project Hermes')]</value>
-      <webElementGuid>472cdc27-78d8-467f-8ee4-9f0f4a09ec1d</webElementGuid>
+      <value>//span[@id = 'LiverpoolTheme_wt20_block_wtMainContent_WatsonsStyle_wtBlock_Applications_block_wtMainContent_wtList_Applications_ctl02_wtExpression_ApplicationName' and (text() = 'Non-Trade Vendor Portal' or . = 'Non-Trade Vendor Portal')]</value>
+      <webElementGuid>25f4842c-02cc-47cf-abcd-da260fb37221</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

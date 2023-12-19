@@ -32,12 +32,12 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/titleHeader_Select Application to access'), 
     'Select Application to access')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Application List/container_Watsons Project Hermes'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Application List/container_Non-Trade Vendor Portal'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/containerLabel_Watsons Project Hermes'), 
-    'Watsons Project Hermes')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal'), 
+    'Non-Trade Vendor Portal')
 
-WebUI.click(findTestObject('Object Repository/Page_Application List/containerLabel_Watsons Project Hermes'))
+WebUI.click(findTestObject('Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Invalid Permissions/InvalidPage_Invalid Permissions'), 'Invalid Permissions')
 
