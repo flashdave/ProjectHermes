@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_BulletinMemo</name>
+   <tag></tag>
+   <elementGuidId>31e41d4a-b71b-4720-a727-f058ccd4e192</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.padding-y-base.padding-x-xl.card-style.display-flex.flex-direction-column.justify-content-space-between > div.position-relative.display-flex.flex-direction-column.justify-content-space-between.row-gap-xs.report-img-size > img.report-img-size</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-MainContent']/div/div[3]/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>29c7be13-33ee-44b9-a969-6a35bcb0319b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>report-img-size</value>
+      <webElementGuid>88350f13-c109-44bd-86b1-dbd217f2f9ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/NonTradeVendorPortal/img/NonTradeVendorPortal.Group39published.svg?pUjLxzx3lJLwtEMGSvW8uA</value>
+      <webElementGuid>ef66ed7b-2683-48a6-8364-f5fa44e66623</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-MainContent&quot;)/div[@class=&quot;display-flex column-gap-base&quot;]/div[@class=&quot;padding-y-base padding-x-xl card-style display-flex flex-direction-column justify-content-space-between&quot;]/div[@class=&quot;position-relative display-flex flex-direction-column justify-content-space-between row-gap-xs report-img-size&quot;]/img[@class=&quot;report-img-size&quot;]</value>
+      <webElementGuid>d3387901-d133-4c3f-9dc4-0bcf09e604c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-MainContent']/div/div[3]/div/img</value>
+      <webElementGuid>2e875778-c49e-4e62-bb82-def3692509f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/img</value>
+      <webElementGuid>c32ac2a3-1af7-45a9-a8fb-986583976954</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/NonTradeVendorPortal/img/NonTradeVendorPortal.Group39published.svg?pUjLxzx3lJLwtEMGSvW8uA']</value>
+      <webElementGuid>1c3bcb18-42ab-4817-9bd7-5b1abacdf1d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

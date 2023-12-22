@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_RAView All</name>
+   <tag></tag>
+   <elementGuidId>3c27a206-da36-4c1e-97c6-dd7bc5b10bc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.padding-y-base.padding-x-xl.card-style.display-flex.flex-direction-column.justify-content-space-between > div.text-align-center > button.btn.btn-primary.btn-small.margin-top-s</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d7710997-40b3-45e1-80ad-d64f8736290d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-small margin-top-s</value>
+      <webElementGuid>6330531e-71f2-4892-b264-239968d5ad2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4fe8a8e2-3d52-4492-9d8f-dc9f356508c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View All</value>
+      <webElementGuid>506495aa-bb46-4127-83a1-0137f0c80391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-MainContent&quot;)/div[@class=&quot;display-flex column-gap-base&quot;]/div[@class=&quot;padding-y-base padding-x-xl card-style display-flex flex-direction-column justify-content-space-between&quot;]/div[@class=&quot;text-align-center&quot;]/button[@class=&quot;btn btn-primary btn-small margin-top-s&quot;]</value>
+      <webElementGuid>662407b0-b797-4ff0-89af-267546c471ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>a18f8bc1-47aa-4f45-9d8c-147f957da220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-MainContent']/div/div[2]/div[2]/button</value>
+      <webElementGuid>074cb55f-1ec2-4119-be8f-1624a412a0ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[2]/following::button[1]</value>
+      <webElementGuid>99ab8162-07dc-45e5-8a61-48f474f9401c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unread'])[2]/following::button[1]</value>
+      <webElementGuid>6afcbcc2-5161-4649-8291-0a5568986776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Published'])[1]/preceding::button[1]</value>
+      <webElementGuid>0e976a81-9942-4496-b666-03035005115b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulletin Memo'])[3]/preceding::button[1]</value>
+      <webElementGuid>6af60d9f-90a6-4eeb-a91c-cde75ebf8d7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>d96f19a2-c0f0-4d15-a889-2b4b344d9c8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'View All' or . = 'View All')]</value>
+      <webElementGuid>e6ebd8d5-874b-493c-9d67-f1c05574211a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

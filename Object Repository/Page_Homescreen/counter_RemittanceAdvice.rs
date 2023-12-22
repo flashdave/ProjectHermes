@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>counter_RemittanceAdvice</name>
+   <tag></tag>
+   <elementGuidId>bb3623bb-c05c-4df6-b39e-c581bc4ac062</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='$b4']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>609edb24-d4da-4841-b4fa-5f632b406b0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>badge border-radius-rounded background-red  OSInline</value>
+      <webElementGuid>dadc6d8d-20c4-49d1-88ab-a569e307cb53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$b4&quot;)/div[@class=&quot;badge border-radius-rounded background-red  OSInline&quot;]</value>
+      <webElementGuid>75928576-8414-416c-92ec-48b5806829d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='$b4']/div</value>
+      <webElementGuid>8650b183-4aea-4958-a8cb-e860e723dea5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[1]/following::div[5]</value>
+      <webElementGuid>2fa559bc-eb0f-4e21-ac2a-2e066b33237b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Form 2307'])[2]/following::div[6]</value>
+      <webElementGuid>6b887a42-2c57-492c-8a10-51a347d05d99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unread'])[2]/preceding::div[1]</value>
+      <webElementGuid>ae772b33-8590-44c6-895d-0cf844d3ab50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[2]/preceding::div[1]</value>
+      <webElementGuid>193f5b3f-edbb-4567-bf02-b8d8a142b95c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a/div/div</value>
+      <webElementGuid>912a9bb8-5ef4-4cb6-ba4c-b03c0eb9c7cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '10' or . = '10')]</value>
+      <webElementGuid>cbe9298b-7d2b-4ca8-8e11-112ad3064d88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

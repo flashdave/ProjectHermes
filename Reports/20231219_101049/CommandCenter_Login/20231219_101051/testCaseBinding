@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP","testCaseId":"Test Cases/Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP","iterationVariableName":""}
+{"testCaseName":"Test Cases/Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP","testCaseId":"Test Cases/Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP","iterationVariableName":""}
+{"testCaseName":"Test Cases/Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin","testCaseId":"Test Cases/Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin","iterationVariableName":""}
+{"testCaseName":"Test Cases/Sprint 1/CommandCenter_LoginTC/TC004_LoginInactiveAccount","testCaseId":"Test Cases/Sprint 1/CommandCenter_LoginTC/TC004_LoginInactiveAccount","iterationVariableName":""}

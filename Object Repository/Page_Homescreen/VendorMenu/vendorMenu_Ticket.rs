@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>vendorMenu_Ticket</name>
+   <tag></tag>
+   <elementGuidId>22e74587-c156-4b8a-8916-e16a9cf2a54a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-PageLinks']/a[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8965a86e-f341-4841-b424-a1aceedbb4fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-neutral-0 font-bold</value>
+      <webElementGuid>90b076d0-0d04-4be4-93d5-bd52336be6e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ticket</value>
+      <webElementGuid>36e7c143-bc86-4227-9e13-b22ea5a65f20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-PageLinks&quot;)/a[@class=&quot;padding-x-base padding-y-s margin-x-xs&quot;]/span[@class=&quot;text-neutral-0 font-bold&quot;]</value>
+      <webElementGuid>b26af040-53be-4d32-9249-6c4b8f89633c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-PageLinks']/a[2]/span</value>
+      <webElementGuid>9e543cdf-2e58-4b1a-b9ba-a1cf0cdd270b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulletin Memo'])[1]/following::span[1]</value>
+      <webElementGuid>053d256e-1de4-43ed-afde-e855651b8263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[1]/following::span[2]</value>
+      <webElementGuid>5b30f019-2aa8-41d4-9d05-2ced8e08275e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exalta'])[1]/preceding::span[1]</value>
+      <webElementGuid>c1b1250e-203b-4a3b-8deb-597df30a09a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::span[2]</value>
+      <webElementGuid>05ed9e46-8082-4940-9bb1-5617f3e34d72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ticket']/parent::*</value>
+      <webElementGuid>58b2ad98-2f88-4db4-8635-1344456017b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/span</value>
+      <webElementGuid>0bc7f370-b0fd-4f35-9413-d5cbe3ad8f51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ticket' or . = 'Ticket')]</value>
+      <webElementGuid>f90b3173-bf7c-4f60-a0ed-fc5f6219a25b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_PublishedBM</name>
+   <tag></tag>
+   <elementGuidId>5e2a7217-0ba2-4fff-83a8-05cc872fbd40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.font-bold.OSFillParent</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-MainContent']/div/div[3]/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b839f39c-45de-48e0-be6e-08e696e6ad1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-bold OSFillParent</value>
+      <webElementGuid>9adc209b-4d8c-465f-9124-757788e367a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Published</value>
+      <webElementGuid>44571440-1239-4fc0-b689-c44351baa12a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-MainContent&quot;)/div[@class=&quot;display-flex column-gap-base&quot;]/div[@class=&quot;padding-y-base padding-x-xl card-style display-flex flex-direction-column justify-content-space-between&quot;]/div[@class=&quot;position-relative display-flex flex-direction-column justify-content-space-between row-gap-xs report-img-size&quot;]/div[@class=&quot;display-flex flex-direction-column text-align-center&quot;]/span[@class=&quot;font-bold OSFillParent&quot;]</value>
+      <webElementGuid>27d98b60-12ea-4f81-b8f2-b71f3f238f4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-MainContent']/div/div[3]/div/div[2]/span</value>
+      <webElementGuid>cf361f23-768b-4143-9972-4148d31608eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[2]/following::span[2]</value>
+      <webElementGuid>e94ace07-ea4d-485b-a00f-f7be3badc6a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[2]/following::span[2]</value>
+      <webElementGuid>26a4c311-9a2d-4eb5-b9fc-040fa48623d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulletin Memo'])[3]/preceding::span[1]</value>
+      <webElementGuid>b2c13dbb-9a9e-4ea1-bb9a-319673b1c34f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[3]/preceding::span[2]</value>
+      <webElementGuid>4886ca78-23a6-45e3-a1aa-f57aa004f80d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Published']/parent::*</value>
+      <webElementGuid>4962101f-3e1e-4e01-abe1-1fcaf9d0c964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/span</value>
+      <webElementGuid>6b78ed09-cf47-4fd7-8a65-1a252569e99d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Published' or . = 'Published')]</value>
+      <webElementGuid>7e973583-cfc7-4eba-b6c8-bbfd2fc194f2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>counter_Form2307</name>
+   <tag></tag>
+   <elementGuidId>7c389237-9613-4ea7-b400-d9582e1f433a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.badge.border-radius-rounded.background-red.OSInline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='$b3']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2b95b2af-247f-41d5-8573-d84766bfd749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>badge border-radius-rounded background-red  OSInline</value>
+      <webElementGuid>0876e9bb-9423-4077-bcc6-dd2f6c86b2c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$b3&quot;)/div[@class=&quot;badge border-radius-rounded background-red  OSInline&quot;]</value>
+      <webElementGuid>49f1bd1e-2bcd-434e-b9f7-d02c6585a8ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='$b3']/div</value>
+      <webElementGuid>2929b873-49fb-4867-bc0f-df8859c06903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[8]</value>
+      <webElementGuid>705e12d0-aaf3-46d6-a110-bc13fb01b74f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::div[14]</value>
+      <webElementGuid>9c1215dd-b216-4715-8b66-c3b3dcba3621</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unread'])[1]/preceding::div[1]</value>
+      <webElementGuid>dac472fa-955b-4850-9a09-ce9d2ac27669</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Form 2307'])[2]/preceding::div[1]</value>
+      <webElementGuid>42a85f9b-c47d-4873-8468-be94285a0d46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div</value>
+      <webElementGuid>e06a949d-502d-4e46-9ab3-558658e85dd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1' or . = '1')]</value>
+      <webElementGuid>8bd85e6a-5228-43ec-8e5a-e9c481c015d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CommandCenter_Login,Chrome 120.0.0.0,This test suite is for regression testing of watsons users in command center,,2023-12-19 10:11:02,2023-12-19 10:11:53,51.339s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP,Chrome 120.0.0.0,,,2023-12-19 10:11:02,2023-12-19 10:11:16,14.017s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-19 10:11:02,2023-12-19 10:11:05,2.743s,PASSED
+navigateToUrl(URL_commandCenter),Chrome 120.0.0.0,,,2023-12-19 10:11:05,2023-12-19 10:11:06,1.478s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username""), watsons_username)",Chrome 120.0.0.0,,,2023-12-19 10:11:06,2023-12-19 10:11:07,1.040s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password""), watsons_password)",Chrome 120.0.0.0,,,2023-12-19 10:11:07,2023-12-19 10:11:08,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login""))",Chrome 120.0.0.0,,,2023-12-19 10:11:08,2023-12-19 10:11:09,0.704s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER""), ""WATSONS COMMAND CENTER"")",Chrome 120.0.0.0,,,2023-12-19 10:11:09,2023-12-19 10:11:10,1.307s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/titleHeader_Select Application to access""), ""Select Application to access"")",Chrome 120.0.0.0,,,2023-12-19 10:11:10,2023-12-19 10:11:10,0.443s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Application List/container_Non-Trade Vendor Portal""), 0)",Chrome 120.0.0.0,,,2023-12-19 10:11:10,2023-12-19 10:11:11,0.404s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal""), ""Non-Trade Vendor Portal"")",Chrome 120.0.0.0,,,2023-12-19 10:11:11,2023-12-19 10:11:11,0.378s,PASSED
+"click(findTestObject(""Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal""))",Chrome 120.0.0.0,,,2023-12-19 10:11:11,2023-12-19 10:11:12,0.802s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-19 10:11:12,2023-12-19 10:11:16,3.953s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP,Chrome 120.0.0.0,,,2023-12-19 10:11:16,2023-12-19 10:11:29,13.544s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-19 10:11:16,2023-12-19 10:11:18,1.975s,PASSED
+navigateToUrl(URL_commandCenter),Chrome 120.0.0.0,,,2023-12-19 10:11:18,2023-12-19 10:11:19,1.190s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username""), AP_username)",Chrome 120.0.0.0,,,2023-12-19 10:11:19,2023-12-19 10:11:20,0.887s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password""), AP_password)",Chrome 120.0.0.0,,,2023-12-19 10:11:20,2023-12-19 10:11:21,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login""))",Chrome 120.0.0.0,,,2023-12-19 10:11:21,2023-12-19 10:11:22,1.409s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER""), ""WATSONS COMMAND CENTER"")",Chrome 120.0.0.0,,,2023-12-19 10:11:22,2023-12-19 10:11:23,1.187s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/titleHeader_Select Application to access""), ""Select Application to access"")",Chrome 120.0.0.0,,,2023-12-19 10:11:23,2023-12-19 10:11:24,0.331s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal""), 0)",Chrome 120.0.0.0,,,2023-12-19 10:11:24,2023-12-19 10:11:24,0.339s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal""), ""Non-Trade Vendor Portal"")",Chrome 120.0.0.0,,,2023-12-19 10:11:24,2023-12-19 10:11:24,0.348s,PASSED
+"click(findTestObject(""Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal""))",Chrome 120.0.0.0,,,2023-12-19 10:11:24,2023-12-19 10:11:26,1.764s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-19 10:11:26,2023-12-19 10:11:29,3.330s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin,Chrome 120.0.0.0,,,2023-12-19 10:11:29,2023-12-19 10:11:42,12.987s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-19 10:11:30,2023-12-19 10:11:32,1.934s,PASSED
+navigateToUrl(URL_commandCenter),Chrome 120.0.0.0,,,2023-12-19 10:11:32,2023-12-19 10:11:33,1.357s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username""), admin_username)",Chrome 120.0.0.0,,,2023-12-19 10:11:33,2023-12-19 10:11:34,0.930s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password""), admin_password)",Chrome 120.0.0.0,,,2023-12-19 10:11:34,2023-12-19 10:11:34,0.512s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login""))",Chrome 120.0.0.0,,,2023-12-19 10:11:34,2023-12-19 10:11:35,0.606s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER""), ""WATSONS COMMAND CENTER"")",Chrome 120.0.0.0,,,2023-12-19 10:11:35,2023-12-19 10:11:37,1.719s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/titleHeader_Select Application to access""), ""Select Application to access"")",Chrome 120.0.0.0,,,2023-12-19 10:11:37,2023-12-19 10:11:37,0.391s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal""), 0)",Chrome 120.0.0.0,,,2023-12-19 10:11:37,2023-12-19 10:11:38,0.361s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal""), ""Non-Trade Vendor Portal"")",Chrome 120.0.0.0,,,2023-12-19 10:11:38,2023-12-19 10:11:38,0.389s,PASSED
+"click(findTestObject(""Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal""))",Chrome 120.0.0.0,,,2023-12-19 10:11:38,2023-12-19 10:11:39,0.921s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access""), ""Watson's User Role & Access"")",Chrome 120.0.0.0,,,2023-12-19 10:11:39,2023-12-19 10:11:42,3.594s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/CommandCenter_LoginTC/TC004_LoginInactiveAccount,Chrome 120.0.0.0,,,2023-12-19 10:11:42,2023-12-19 10:11:53,10.575s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-19 10:11:43,2023-12-19 10:11:45,1.873s,PASSED
+navigateToUrl(URL_commandCenter),Chrome 120.0.0.0,,,2023-12-19 10:11:45,2023-12-19 10:11:46,1.292s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username""), ""john.colis+2@tesi.com.ph"")",Chrome 120.0.0.0,,,2023-12-19 10:11:46,2023-12-19 10:11:47,0.850s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password""), ""P5k+p8A8pUQrhblKSHBMTToIR+E8gbN/"")",Chrome 120.0.0.0,,,2023-12-19 10:11:47,2023-12-19 10:11:47,0.538s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login""))",Chrome 120.0.0.0,,,2023-12-19 10:11:47,2023-12-19 10:11:48,0.666s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER""), ""WATSONS COMMAND CENTER"")",Chrome 120.0.0.0,,,2023-12-19 10:11:48,2023-12-19 10:11:50,1.526s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/titleHeader_Select Application to access""), ""Select Application to access"")",Chrome 120.0.0.0,,,2023-12-19 10:11:50,2023-12-19 10:11:50,0.396s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Application List/container_Non-Trade Vendor Portal""), 0)",Chrome 120.0.0.0,,,2023-12-19 10:11:50,2023-12-19 10:11:50,0.356s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal""), ""Non-Trade Vendor Portal"")",Chrome 120.0.0.0,,,2023-12-19 10:11:50,2023-12-19 10:11:51,0.374s,PASSED
+"click(findTestObject(""Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal""))",Chrome 120.0.0.0,,,2023-12-19 10:11:51,2023-12-19 10:11:52,0.883s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Invalid Permissions/InvalidPage_Invalid Permissions""), ""Invalid Permissions"")",Chrome 120.0.0.0,,,2023-12-19 10:11:52,2023-12-19 10:11:52,0.490s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Invalid Permissions/invalidDesc_You dont have permissions to view the r_886a38""), ""You don't have permissions to view the required screen. Please contact the system administrator."")",Chrome 120.0.0.0,,,2023-12-19 10:11:52,2023-12-19 10:11:52,0.367s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-19 10:11:52,2023-12-19 10:11:53,0.667s,PASSED

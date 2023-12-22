@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popupOpen_Tickets</name>
+   <tag></tag>
+   <elementGuidId>06a5c1f0-add5-4b59-9bb2-015c58c5e979</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-neutral-0.heading6.OSFillParent</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='$b15']/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>17da5110-1360-4512-996f-cd6c10ffe58d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-neutral-0 heading6 OSFillParent</value>
+      <webElementGuid>04094a5b-e8b1-4c64-8033-8adb3fdcfa4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tickets</value>
+      <webElementGuid>1cb3ef4a-0934-4c2a-9e8c-a7f70b041a4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$b15&quot;)/div[@class=&quot;background-primary padding-left-s padding-bottom-s padding-top-s&quot;]/div[@class=&quot;ThemeGrid_Width8&quot;]/span[@class=&quot;text-neutral-0 heading6 OSFillParent&quot;]</value>
+      <webElementGuid>9358df58-4643-4b03-86d1-cd5e100edb19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='$b15']/div/div/span</value>
+      <webElementGuid>7e7edd29-3bc0-48da-a965-17d492d5ee3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[4]/following::span[1]</value>
+      <webElementGuid>a334fb44-b9ee-4ae1-a795-1f823b415b1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tickets'])[1]/following::span[1]</value>
+      <webElementGuid>05bc82ad-fa5a-48dd-8fb7-c255305d294b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FIN-0031'])[1]/preceding::span[2]</value>
+      <webElementGuid>cbe1b579-6379-49c7-be87-5525116b64c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FIN-0033'])[1]/preceding::span[4]</value>
+      <webElementGuid>a9a0c049-1f40-44ec-bc73-de074b706e58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/span</value>
+      <webElementGuid>060a5231-ea5a-49e9-ba10-9fd4a4dab7c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tickets' or . = 'Tickets')]</value>
+      <webElementGuid>054c9ec9-e94d-496e-99d7-07757ec09188</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

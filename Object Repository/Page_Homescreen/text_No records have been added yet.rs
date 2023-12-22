@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_No records have been added yet</name>
+   <tag></tag>
+   <elementGuidId>0438eeff-cfb1-433b-8519-cda0f9bf866f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b7-Content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;b9-Content&quot; or @id=&quot;b7-Content&quot; or @id=&quot;b13-Content&quot; or @id=&quot;b16-Content&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f7bbc5b2-3853-4c9a-ae69-a14789e37202</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ph blank-slate-description</value>
+      <webElementGuid>8f9c1b9f-6286-4cce-9299-e6d3d210ad2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b7-Content</value>
+      <webElementGuid>cc7b0696-d398-4c86-bc80-4db93cc26c82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No records have been added yet</value>
+      <webElementGuid>c99fb8a4-bdc4-4a07-b0a9-cde98a642f49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b7-Content&quot;)</value>
+      <webElementGuid>92467469-c04b-4aea-8fdb-abdfd551e16c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b7-Content']</value>
+      <webElementGuid>8bc3f39c-0a26-425e-b18a-62d8caabc892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b7-BlankState']/div/div[2]</value>
+      <webElementGuid>e30e2873-749b-450f-b86a-e0c319d0c751</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance Advice'])[3]/following::div[7]</value>
+      <webElementGuid>432b8f03-36a4-4c72-8113-d004211e3941</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[15]</value>
+      <webElementGuid>e10a1ac2-95e2-4492-9f89-05cfbbdfdcf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No records have been added yet']/parent::*</value>
+      <webElementGuid>fc244939-640b-4522-b517-c9c5e9ba536e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div/div/div[2]</value>
+      <webElementGuid>571ca039-b6a9-4558-8056-90bfb785006c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b7-Content' and (text() = 'No records have been added yet' or . = 'No records have been added yet')]</value>
+      <webElementGuid>d171da44-0e77-4459-b935-9aad5d102c43</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

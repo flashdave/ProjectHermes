@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>container_Form2307</name>
+   <tag></tag>
+   <elementGuidId>e2ab4109-9969-4e93-9e3c-c1823a55e2ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-style.display-flex.flex-direction-column.justify-content-space-between</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-MainContent']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3e24c072-0671-4cfd-8bac-95b48c1e8563</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-style display-flex flex-direction-column justify-content-space-between</value>
+      <webElementGuid>1bfe0479-e2e1-4f56-beb0-86493ec7e44e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-MainContent&quot;)/div[@class=&quot;display-flex column-gap-base&quot;]/div[@class=&quot;card-style display-flex flex-direction-column justify-content-space-between&quot;]</value>
+      <webElementGuid>12848a2b-cd5f-4e24-8e57-2ab7fd25dc75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-MainContent']/div/div</value>
+      <webElementGuid>e28c64cd-0565-440f-9685-57b922e10179</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[4]</value>
+      <webElementGuid>628329aa-d4cf-49a3-bf3c-22ae02b3a86d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::div[10]</value>
+      <webElementGuid>9be84225-dc02-4c44-a10b-b1b4914d6117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[3]/div/div</value>
+      <webElementGuid>68bbbb84-1256-4a00-9c1c-e13d1cf5f8ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1UnreadForm 2307View All' or . = '1UnreadForm 2307View All')]</value>
+      <webElementGuid>e044e8bd-e404-4495-8031-541d7113736c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>container_RemittanceAdvice</name>
+   <tag></tag>
+   <elementGuidId>e1fd88c4-b66f-4b09-ae50-34676e4df8ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.padding-y-base.padding-x-xl.card-style.display-flex.flex-direction-column.justify-content-space-between</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-MainContent']/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ffff1162-55f8-4ff9-b5ba-87cd441faa6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>padding-y-base padding-x-xl card-style display-flex flex-direction-column justify-content-space-between</value>
+      <webElementGuid>b8382f64-9200-4b6e-a168-6cd616240014</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;b1-MainContent&quot;]/div/div[2]</value>
+      <webElementGuid>f1713eaf-9b1a-4444-8e28-0bb68b8a0805</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-MainContent']/div/div[2]</value>
+      <webElementGuid>c857fa1c-a111-4045-abea-2f24ccea5406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[1]/following::div[1]</value>
+      <webElementGuid>d16acd37-d73a-476c-ba30-5168be468f58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Form 2307'])[2]/following::div[2]</value>
+      <webElementGuid>76816bfd-bde4-4de6-ba51-a6715939f43e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[3]/div/div[2]</value>
+      <webElementGuid>e756687f-ed04-443a-a6e8-90d5b6d0ebad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '10UnreadRemittance AdviceView All' or . = '10UnreadRemittance AdviceView All')]</value>
+      <webElementGuid>046a6ddc-5ae5-4f64-b2c2-b6ac54e62e43</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>adminMenu_Ticket</name>
+   <tag></tag>
+   <elementGuidId>af8df866-1a11-4ff1-a49a-419d3018fa7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;b13-PageLinks&quot;]/a[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a22089a3-5e1c-4c53-9287-4554ff7a94bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-neutral-0 font-bold</value>
+      <webElementGuid>42f541c4-0d89-41a9-9d48-66f087e3e544</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ticket</value>
+      <webElementGuid>7c98fcc0-9cc0-4994-8594-5f486bbd3589</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b12-PageLinks&quot;)/a[@class=&quot;padding-x-base padding-y-s margin-x-xs&quot;]/span[@class=&quot;text-neutral-0 font-bold&quot;]</value>
+      <webElementGuid>3c0e86f5-bcb7-4f1f-b1a7-c7bf176646a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b12-PageLinks']/a[2]/span</value>
+      <webElementGuid>34d005c6-e95b-492e-9b9c-45f0a483eb0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Type'])[1]/following::span[1]</value>
+      <webElementGuid>bcac7594-ee9c-44be-b3bc-1e3490f4c208</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-Signature'])[1]/following::span[2]</value>
+      <webElementGuid>b54898d6-6d73-4528-9f12-5c2cc0ae8dba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::span[1]</value>
+      <webElementGuid>88d61aea-7b76-418f-b62c-4e19b5b76bc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobarak Dimalotang'])[1]/preceding::span[2]</value>
+      <webElementGuid>5054e8f3-7f19-464d-b93d-35d5814e9957</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ticket']/parent::*</value>
+      <webElementGuid>413954d7-618b-4a71-87f0-ecfca4c70de1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/span</value>
+      <webElementGuid>a063c2ba-5859-49a5-90b0-bcc944276aa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ticket' or . = 'Ticket')]</value>
+      <webElementGuid>f79c6597-590f-40a1-9e37-94acee305727</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

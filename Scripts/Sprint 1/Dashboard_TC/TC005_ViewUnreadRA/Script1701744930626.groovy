@@ -26,14 +26,14 @@ import com.kms.katalon.core.helper.KeywordHelper as KeywordHelper
 import org.openqa.selenium.JavascriptExecutor
 import java.text.SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Sprint 1/VendorPortal_Login_TC/TC004_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Remittance Advice popup window
 
-def unRead_RA = WebUI.getText(findTestObject('Object Repository/Page_Homescreen/counter_UnreadRA'))
-WebUI.click(findTestObject('Object Repository/Page_Homescreen/counter_UnreadRA'))
+def unRead_RA = WebUI.getText(findTestObject('Object Repository/Page_Homescreen/counter_RemittanceAdvice'))
+WebUI.click(findTestObject('Object Repository/Page_Homescreen/counter_RemittanceAdvice'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/popupLabel_Remittance Advice'), 'Remittance Advice')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/popupUnread_Remittance Advice'), 'Remittance Advice')
 
 def isMatch = false
 
@@ -48,7 +48,7 @@ println "$rows_count"
 
 WebUI.verifyEqual(unRead_RA, rows_count)
 
-WebUI.click(findTestObject('Object Repository/Page_Homescreen/popup_closeIcon'))
+WebUI.click(findTestObject('Object Repository/Page_Homescreen/close_Icon'))
 
 WebUI.closeBrowser()
 

@@ -23,23 +23,27 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword as VerifyMatchKeyword
 import com.kms.katalon.core.helper.KeywordHelper as KeywordHelper
-import org.openqa.selenium.JavascriptExecutor
-import java.text.SimpleDateFormat
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/menu_Home'), 2)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/AdminMenu/adminMenu_Watsons Command Center'), 
+    'Watsons Command Center')
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/menu_Reports'), 2)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home'), 2)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Admin'), 'Admin')
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports'), 2)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/menu_Upload'), 2)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/AdminMenu/adminMenu_Admin'), 'Admin')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Audit Trail_Admin'), 'Audit Trail')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/AdminMenu/adminMenu_Ticket'), 'Ticket')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access'), "Watson's User Role & Access")
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload'), 2)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/AdminMenu/admin Menu_Audit Trail'), 'Audit Trail')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access'), 'Watson\'s User Role & Access')
 
 WebUI.closeBrowser()
-
 

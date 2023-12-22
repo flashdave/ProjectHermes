@@ -28,70 +28,79 @@ import java.text.SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Home'), 'Home')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center'), 'Watsons Command Center')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Reports'), 'Reports')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home'), 'Home')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Admin'), 'Admin')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports'), 'Reports')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Ticket'), 'Ticket')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin'), 'Admin')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Upload'), 'Upload')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket'), 'Ticket')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/menu_Audit Trail_SP'), 'Audit Trail')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload'), 'Upload')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tile_RemittanceAdvice'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail'), 'Audit Trail')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tile_BulletinMemo'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/container_Form2307'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tile_Form2307'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/container_RemittanceAdvice'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tile_Tickets'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/container_BulletinMemo'), 0)
 
-//elements in the Remittance Advice tile
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_UnreadRA'), 0) //unread counter
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/container_Tickets'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tileIconRA_Inbox'), 0) //icon
+//elements in the Form 2307 container
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_Form2307'), 0) //unread counter
 
-WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/tileIconRA_Inbox'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/icon_Form2307'), 0) //icon
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/tileLabel_Remittance Advice'), 'Remittance Advice') //tile label
+WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/icon_Form2307'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_RA_View All'), 0) //viewAll button
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/label_UnreadForm2307'), 'Unread') //label
 
-//elements in the Bulletin Memo tile
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_UnreadBM'), 0) //unread counter
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/label_Form 2307'), 'Form 2307') //label
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tileIconBM_Inbox'), 0) //icon
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/buttonForm2307_View All'), 0) //viewAll button
 
-WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/tileIconBM_Inbox'))
+//elements in the Remittance Advice container
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_RemittanceAdvice'), 0) //unread counter
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/tileLabel_BulletinMemo'), 'Bulletin Memo') //tile label
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/icon_RemittanceAdvice'), 0) //icon
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_BM_View All'), 0) //viewAll button
+WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/icon_RemittanceAdvice'))
 
-//elements in the Form 2307 tile
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_UnreadForm2307'), 0) //unread counter
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/label_UnreadRA'), 'Unread') //label
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tileIconForm2307_Inbox'), 0) //icon
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/label_Remittance Advice'), 'Remittance Advice') //label
 
-WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/tileIconForm2307_Inbox'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_RAView All'), 0) //viewAll button
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/tileLabel_Form 2307'), 'Form 2307') //tile label
+//elements in the Bulletin memo container
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_BulletinMemo'), 0) //unread counter
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_Form2307_View All'), 0) //viewAll button
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/icon_BulletinMemo'), 0) //icon
 
-//elements in the Tickets tile
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_UnreadTickets'), 0) //unread counter
+WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/icon_BulletinMemo'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/tileIconTickets_Inbox'), 0) //icon
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/label_PublishedBM'), 'Published') //label
 
-WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/tileIconTickets_Inbox'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/label_Bulletin Memo'), 'Bulletin Memo') //label
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/tileLabel_Tickets'), 'Tickets') //tile label
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_BMView All'), 0) //viewAll button
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_Tickets_View All'), 0) //viewAll button
+//elements in the Tickets container
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/counter_Tickets'), 0) //unread counter
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/icon_Tickets'), 0) //icon
+
+WebUI.takeElementScreenshot(findTestObject('Object Repository/Page_Homescreen/icon_Tickets'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/label_Open'), 'Open') //label
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/label_Tickets'), 'Tickets') //label
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Homescreen/button_TicketsView All'), 0) //viewAll button
 
 WebUI.closeBrowser()
 

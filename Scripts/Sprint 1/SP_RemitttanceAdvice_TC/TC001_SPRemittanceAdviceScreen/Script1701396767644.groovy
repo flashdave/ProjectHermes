@@ -21,9 +21,9 @@ import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
 WebUI.callTestCase(findTestCase('Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Homescreen/menu_Reports'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Homescreen/tileLabel_Remittance Advice'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Remittance Advice/titlePage_Remittance Advice'), 'Remittance Advice')
 

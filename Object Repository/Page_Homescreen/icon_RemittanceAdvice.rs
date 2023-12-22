@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_RemittanceAdvice</name>
+   <tag></tag>
+   <elementGuidId>5a844cb1-1597-46dc-8edc-d72a150faa41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.padding-y-base.padding-x-xl.card-style.display-flex.flex-direction-column.justify-content-space-between > div.position-relative.display-flex.flex-direction-column.justify-content-space-between.row-gap-xs.report-img-size > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-MainContent']/div/div[2]/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>97768016-5c9c-4b3c-b3f5-37bc6ac03aee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/NonTradeVendorPortal/img/NonTradeVendorPortal.MessageIconremittanceAdvice.svg?j3FZejeW6edatTUoDCEU8A</value>
+      <webElementGuid>414763d1-a1ab-489a-94d6-9b613d664c17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-MainContent&quot;)/div[@class=&quot;display-flex column-gap-base&quot;]/div[@class=&quot;padding-y-base padding-x-xl card-style display-flex flex-direction-column justify-content-space-between&quot;]/div[@class=&quot;position-relative display-flex flex-direction-column justify-content-space-between row-gap-xs report-img-size&quot;]/img[1]</value>
+      <webElementGuid>2a624784-ba83-46b2-b2cd-7cf502f9a222</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-MainContent']/div/div[2]/div/img</value>
+      <webElementGuid>85f69017-5404-4bc9-944f-b6bb77b99b31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/img</value>
+      <webElementGuid>0f504f12-4252-46db-9be6-e1e20bcaec12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/NonTradeVendorPortal/img/NonTradeVendorPortal.MessageIconremittanceAdvice.svg?j3FZejeW6edatTUoDCEU8A']</value>
+      <webElementGuid>d844a99a-6611-443f-a6ee-929dcbdca635</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

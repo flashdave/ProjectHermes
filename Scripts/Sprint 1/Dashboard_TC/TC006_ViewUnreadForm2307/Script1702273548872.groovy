@@ -26,16 +26,14 @@ import com.kms.katalon.core.helper.KeywordHelper as KeywordHelper
 import org.openqa.selenium.JavascriptExecutor
 import java.text.SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Sprint 1/VendorPortal_Login_TC/TC004_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
+//Remittance Advice popup window
 
-//Form 2307 popup window
+def unRead_Form2307 = WebUI.getText(findTestObject('Object Repository/Page_Homescreen/counter_Form2307'))
+WebUI.click(findTestObject('Object Repository/Page_Homescreen/counter_Form2307'))
 
-def unRead_Form2307 = WebUI.getText(findTestObject('Object Repository/Page_Homescreen/counter_UnreadForm2307'))
-WebUI.click(findTestObject('Object Repository/Page_Homescreen/counter_UnreadForm2307'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/popupLabel_Form 2307'), 'Form 2307')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/popupUnread_Form 2307'), 'Form 2307')
 
 def isMatch = false
 
@@ -50,7 +48,7 @@ println "$rows_count"
 
 WebUI.verifyEqual(unRead_Form2307, rows_count)
 
-WebUI.click(findTestObject('Object Repository/Page_Homescreen/popup_closeIcon'))
+WebUI.click(findTestObject('Object Repository/Page_Homescreen/close_Icon'))
 
 WebUI.closeBrowser()
 

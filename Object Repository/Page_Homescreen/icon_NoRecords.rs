@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_NoRecords</name>
+   <tag></tag>
+   <elementGuidId>aa62e0bc-c801-4766-830c-f8d18dc3e303</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-file-text-o.fa-1x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;b9-Icon&quot; or @id=&quot;b7-Icon&quot; or @id=&quot;b13-Icon&quot; or @id=&quot;b16-Icon&quot; ]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3e03a21f-322a-4a8e-ac07-196550507e4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-file-text-o fa-1x</value>
+      <webElementGuid>65f27a5a-4bac-411b-9dec-bf91e6669dbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b7-Icon&quot;)/i[@class=&quot;icon fa fa-file-text-o fa-1x&quot;]</value>
+      <webElementGuid>d0a29c8c-1e0b-415f-8003-3e286f8c096a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b7-Icon']/i</value>
+      <webElementGuid>9b7f73c0-bcae-411a-b750-5b418a4ae230</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/i</value>
+      <webElementGuid>69e49cd8-45d7-413b-a963-85c31b61ba80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
