@@ -54,4 +54,9 @@
       <initValue>'P5k+p8A8pUQrhblKSHBMTToIR+E8gbN/'</initValue>
       <name>admin_password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://10.143.206.85/NonTradeVendorPortal/'</initValue>
+      <name>URL_vendorhomepage</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL_vendor)
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username'), 'AP_332211')
+WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username'), '1212023_VP')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password'), GlobalVariable.vendor_password)
 

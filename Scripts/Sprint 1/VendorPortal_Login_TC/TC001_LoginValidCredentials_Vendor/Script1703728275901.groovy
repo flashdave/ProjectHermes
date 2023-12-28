@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
 
 WebUI.delay(3)
 
-WebUI.navigateToUrl('https://10.143.206.85/NonTradeVendorPortal/')
+WebUI.navigateToUrl(GlobalVariable.URL_vendorhomepage)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/titlePage_Dashboard'), 'Dashboard')
 

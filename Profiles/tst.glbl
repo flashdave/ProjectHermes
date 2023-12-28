@@ -9,4 +9,9 @@
       <initValue>'uat.os.watsonsph.corp'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://10.143.206.72/NonTradeVendorPortal/'</initValue>
+      <name>URL_vendorhomepage</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

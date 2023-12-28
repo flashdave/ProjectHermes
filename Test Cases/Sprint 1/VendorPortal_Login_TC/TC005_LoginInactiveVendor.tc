@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_LoginInactiveVendor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83cc517f-faff-4b16-8ec1-2870df9bbb91</testCaseGuid>
+</TestCaseEntity>

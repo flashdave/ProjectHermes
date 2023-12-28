@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import org.apache.commons.io.FileUtils as FileUtils
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
-WebUI.callTestCase(findTestCase('Sprint 1/VendorPortal_Login_TC/TC004_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('null'))
 

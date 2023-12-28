@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC005_LoginInvalidPassword</name>
+   <name>TC004_LoginUsingWatsonsUser</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0458aab3-e549-4fdf-a24e-31ec2f5e228e</testCaseGuid>
+   <testCaseGuid>353bfcb1-a702-4c5c-89f6-1cab2dac85a5</testCaseGuid>
 </TestCaseEntity>
