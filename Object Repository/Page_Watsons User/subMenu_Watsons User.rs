@@ -1,107 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>adminMenu_Admin</name>
+   <name>subMenu_Watsons User</name>
    <tag></tag>
-   <elementGuidId>d1c4f9e7-1aab-48c9-bd77-decd8b064383</elementGuidId>
+   <elementGuidId>bb56c3b9-47b4-409f-9e55-386f78273bd6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;b14-b3-Items&quot;]/a[5]/span[count(. | //span[@class = 'text-primary' and (text() = 'Watsons User' or . = 'Watsons User')]) = count(//span[@class = 'text-primary' and (text() = 'Watsons User' or . = 'Watsons User')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;b14-b3-Menu&quot;]/span</value>
+         <value>//*[@id=&quot;b2-b3-Items&quot;]/a[5]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#b12-b3-Menu > span.text-neutral-0.font-bold</value>
+         <value>span.text-primary</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>06854454-8bb7-493a-be6d-5e3688b86424</webElementGuid>
+      <webElementGuid>cae9e17c-943a-4363-95d1-6f20c4654d0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-neutral-0 font-bold</value>
-      <webElementGuid>a3afdafe-4ddb-4ab5-9807-973a477cfc95</webElementGuid>
+      <value>text-primary</value>
+      <webElementGuid>55a8fb7e-9fea-4813-a928-53d7cc600a13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Admin</value>
-      <webElementGuid>87a953df-6393-4943-a80c-e11a7d96589f</webElementGuid>
+      <value>Watsons User</value>
+      <webElementGuid>07431ea9-85f0-44f2-8351-04070196e3ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b12-b3-Menu&quot;)/span[@class=&quot;text-neutral-0 font-bold&quot;]</value>
-      <webElementGuid>76cd13db-1dff-497c-a2ad-3af6513774fe</webElementGuid>
+      <value>//*[@id=&quot;b14-b3-Items&quot;]/a[5]/span</value>
+      <webElementGuid>8944abf0-b99c-45dd-9727-6cfbcc43bd67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b12-b3-Menu']/span</value>
-      <webElementGuid>05d8e5b4-a714-4c71-a88d-1f6329bb303b</webElementGuid>
+      <value>//div[@id='b14-b3-Items']/a/span</value>
+      <webElementGuid>f522fd56-7513-4b83-b3fb-d9c6a3b38aac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons Command Center'])[1]/following::span[1]</value>
-      <webElementGuid>41f3c7af-b5da-493d-8bdb-223c71d3e895</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::span[1]</value>
+      <webElementGuid>6032a262-05b4-4f46-b93c-c132dd403079</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons User'])[2]/preceding::span[1]</value>
-      <webElementGuid>1c312df4-2c83-4338-8e83-821769ab3fe5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons Command Center'])[1]/following::span[2]</value>
+      <webElementGuid>0beb9633-852b-4db8-8e67-b88210a375a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor User'])[1]/preceding::span[2]</value>
-      <webElementGuid>0eb9968c-66f2-48bb-89ec-f08ae7855c35</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor User'])[1]/preceding::span[1]</value>
+      <webElementGuid>f38f5fab-d277-4c68-bec6-6f66aec1270d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Admin']/parent::*</value>
-      <webElementGuid>839879c5-ba25-4c18-b2ec-8765b708dca5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ticket Type'])[1]/preceding::span[2]</value>
+      <webElementGuid>273a025d-3fbf-44d0-a458-0fb036b42f8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/span</value>
-      <webElementGuid>fddb1ed7-7f25-4467-abec-a2f9f9b4a909</webElementGuid>
+      <value>//div[2]/a/span</value>
+      <webElementGuid>6fd13144-9462-45bf-a5c2-c0be578ae3bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>c2a62553-59a3-4303-afb8-4276991610a9</webElementGuid>
+      <value>//span[(text() = 'Watsons User' or . = 'Watsons User')]</value>
+      <webElementGuid>81436408-e87a-493e-8f0f-c92a035ef980</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

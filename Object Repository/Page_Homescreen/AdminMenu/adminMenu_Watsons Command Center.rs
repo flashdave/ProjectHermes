@@ -6,12 +6,12 @@
    <elementGuidId>82bfd43c-4e95-4652-98d5-2b60e27ac527</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.text-neutral-0.font-bold</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;b14-PageLinks&quot;]/a[1]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;b13-PageLinks&quot;]/a[1]/span</value>
+         <key>CSS</key>
+         <value>span.text-neutral-0.font-bold</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>49782fe9-9ce7-453f-b31f-8d7e71e982e3</webElementGuid>
+      <webElementGuid>ea2ed916-0d0a-414f-a7f3-5894570ee0d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-neutral-0 font-bold</value>
-      <webElementGuid>d49293cd-85ec-453d-adb4-7296e2350617</webElementGuid>
+      <webElementGuid>d10bae1a-9457-4ca8-b520-593ba44feb27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Watsons Command Center</value>
-      <webElementGuid>e4d30f6e-fc40-47d3-a3d7-f3e9bc0c3673</webElementGuid>
+      <webElementGuid>3eb36d08-3758-4de3-83da-501cc7cc1878</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b12-PageLinks&quot;)/a[@class=&quot;padding-x-base padding-y-s margin-x-xs&quot;]/span[@class=&quot;text-neutral-0 font-bold&quot;]</value>
-      <webElementGuid>99daed2b-2851-489f-a9dd-7f56c14dddba</webElementGuid>
+      <webElementGuid>6da9486a-fe2d-41c0-b18f-d3fdce46e126</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b12-PageLinks']/a/span</value>
-      <webElementGuid>154078b7-8526-480a-a809-e5ccf11bfed7</webElementGuid>
+      <webElementGuid>49b094f1-5c10-4c63-9bac-8f4b5d778358</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/preceding::span[1]</value>
-      <webElementGuid>8aa02cef-98a7-45d3-a21c-9be976c6bf7e</webElementGuid>
+      <webElementGuid>4ac6e296-2f9b-4827-8972-159c33bf964c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons User'])[2]/preceding::span[2]</value>
-      <webElementGuid>96c6b70f-5436-47f8-8775-2f4f73fc59ed</webElementGuid>
+      <webElementGuid>989eebb1-da90-4ec6-b796-3f06925c3d8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Watsons Command Center']/parent::*</value>
-      <webElementGuid>50cd13c3-2fc2-411f-810b-ba72ee50658f</webElementGuid>
+      <webElementGuid>d6b48d74-a3d6-4d0b-9dc8-3bac8f422fc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>0c2ad71b-2a3a-4e05-9484-c3453772dd00</webElementGuid>
+      <webElementGuid>97f88e24-2e92-4c01-9d9b-bec4f617d554</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Watsons Command Center' or . = 'Watsons Command Center')]</value>
-      <webElementGuid>da8e06ef-a382-49cc-87e3-543579382422</webElementGuid>
+      <webElementGuid>e1f5baae-7634-4436-b4af-40d465022dd5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

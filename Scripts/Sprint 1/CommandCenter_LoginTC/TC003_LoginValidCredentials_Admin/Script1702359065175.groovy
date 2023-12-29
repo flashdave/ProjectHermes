@@ -39,7 +39,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Application List/
 
 WebUI.click(findTestObject('Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access'), "Watson's User Role & Access")
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access'), "Watsons User Role & Access")
 
 
 

@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dashboad_Regression" time="644.402" tests="12" failures="0" errors="0">
+   <testsuite name="Dashboad_Regression" tests="12" failures="0" errors="0" time="644.402" skipped="0" timestamp="2023-12-28 12:55:46" hostname="User - DESKTOP-QPE9SBA" id="Test Suites/Dashboad_Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739382919.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739386142.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739389203.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739392203.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739450189.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739452752.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739455430.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739457972.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739528486.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739531050.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739533469.png, C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739536094.png"/>
+         <property name="hostName" value="User - DESKTOP-QPE9SBA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.70.243"/>
+         <property name="sessionId" value="fa6b3efefe04f30e0f7f81a20a8c13a1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC001_SP_Dashboard" time="47.911" classname="Test Cases/Sprint 1/Dashboard_TC/TC001_SP_Dashboard" status="PASSED">
+         <system-out><![CDATA[2023-12-28 12:55:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC001_SP_Dashboard: Test Cases/Sprint 1/Dashboard_TC/TC001_SP_Dashboard
+
+2023-12-28 12:55:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP' successfully
+
+2023-12-28 12:55:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP: Test Cases/Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP
+
+2023-12-28 12:55:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 12:55:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 12:55:48 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 12:55:48 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 12:55:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 12:55:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 12:55:50 - [TEST_STEP][PASSED] - navigateToUrl(URL_commandCenter): Navigate to 'https://10.143.206.85/watsonsauthentication/' successfully
+
+2023-12-28 12:55:52 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/watsonsauthentication/' successfully
+
+2023-12-28 12:55:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username"), watsons_username): Text 'john.colis+1@tesi.com.ph' is set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username'
+
+2023-12-28 12:55:53 - [MESSAGE][PASSED] - Text 'john.colis+1@tesi.com.ph' is set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username'
+
+2023-12-28 12:55:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password"), watsons_password): Text ****** has been set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password'
+
+2023-12-28 12:55:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password'
+
+2023-12-28 12:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login")): Object: 'Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login' is clicked on
+
+2023-12-28 12:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login' is clicked on
+
+2023-12-28 12:55:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER"), "WATSONS COMMAND CENTER"): Actual text and expected text of test object 'Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER' are matched.
+
+2023-12-28 12:56:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER' are matched.
+
+2023-12-28 12:56:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/titleHeader_Select Application to access"), "Select Application to access"): Actual text and expected text of test object 'Object Repository/Page_Application List/titleHeader_Select Application to access' are matched.
+
+2023-12-28 12:56:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/titleHeader_Select Application to access' are matched.
+
+2023-12-28 12:56:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Application List/container_Non-Trade Vendor Portal"), 0): Object 'Object Repository/Page_Application List/container_Non-Trade Vendor Portal' is present
+
+2023-12-28 12:56:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Application List/container_Non-Trade Vendor Portal' is present
+
+2023-12-28 12:56:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal"), "Non-Trade Vendor Portal"): Actual text and expected text of test object 'Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal' are matched.
+
+2023-12-28 12:56:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal' are matched.
+
+2023-12-28 12:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal")): Object: 'Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal' is clicked on
+
+2023-12-28 12:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Application List/containerLabel_Non-Trade Vendor Portal' is clicked on
+
+2023-12-28 12:56:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:56:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:56:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP' successfully
+
+2023-12-28 12:56:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center"), "Watsons Command Center"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center' are matched.
+
+2023-12-28 12:56:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center' are matched.
+
+2023-12-28 12:56:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home' are matched.
+
+2023-12-28 12:56:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home' are matched.
+
+2023-12-28 12:56:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports"), "Reports"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports' are matched.
+
+2023-12-28 12:56:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports' are matched.
+
+2023-12-28 12:56:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin"), "Admin"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin' are matched.
+
+2023-12-28 12:56:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin' are matched.
+
+2023-12-28 12:56:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket"), "Ticket"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket' are matched.
+
+2023-12-28 12:56:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket' are matched.
+
+2023-12-28 12:56:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload"), "Upload"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload' are matched.
+
+2023-12-28 12:56:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload' are matched.
+
+2023-12-28 12:56:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail"), "Audit Trail"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail' are matched.
+
+2023-12-28 12:56:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail' are matched.
+
+2023-12-28 12:56:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_Form2307"), 0): Object 'Object Repository/Page_Homescreen/container_Form2307' is present
+
+2023-12-28 12:56:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_Form2307' is present
+
+2023-12-28 12:56:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/container_RemittanceAdvice' is present
+
+2023-12-28 12:56:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_RemittanceAdvice' is present
+
+2023-12-28 12:56:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/container_BulletinMemo' is present
+
+2023-12-28 12:56:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_BulletinMemo' is present
+
+2023-12-28 12:56:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_Tickets"), 0): Object 'Object Repository/Page_Homescreen/container_Tickets' is present
+
+2023-12-28 12:56:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_Tickets' is present
+
+2023-12-28 12:56:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_Form2307"), 0): Object 'Object Repository/Page_Homescreen/counter_Form2307' is present
+
+2023-12-28 12:56:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_Form2307' is present
+
+2023-12-28 12:56:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_Form2307"), 0): Object 'Object Repository/Page_Homescreen/icon_Form2307' is present
+
+2023-12-28 12:56:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_Form2307' is present
+
+2023-12-28 12:56:22 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_Form2307")): Taking screenshot successfully
+
+2023-12-28 12:56:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:56:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739382919.png]]
+
+2023-12-28 12:56:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_UnreadForm2307"), "Unread"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadForm2307' are matched.
+
+2023-12-28 12:56:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadForm2307' are matched.
+
+2023-12-28 12:56:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Form 2307"), "Form 2307"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Form 2307' are matched.
+
+2023-12-28 12:56:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Form 2307' are matched.
+
+2023-12-28 12:56:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/buttonForm2307_View All"), 0): Object 'Object Repository/Page_Homescreen/buttonForm2307_View All' is present
+
+2023-12-28 12:56:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/buttonForm2307_View All' is present
+
+2023-12-28 12:56:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is present
+
+2023-12-28 12:56:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is present
+
+2023-12-28 12:56:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/icon_RemittanceAdvice' is present
+
+2023-12-28 12:56:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_RemittanceAdvice' is present
+
+2023-12-28 12:56:26 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_RemittanceAdvice")): Taking screenshot successfully
+
+2023-12-28 12:56:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:56:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739386142.png]]
+
+2023-12-28 12:56:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_UnreadRA"), "Unread"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadRA' are matched.
+
+2023-12-28 12:56:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadRA' are matched.
+
+2023-12-28 12:56:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Remittance Advice"), "Remittance Advice"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Remittance Advice' are matched.
+
+2023-12-28 12:56:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Remittance Advice' are matched.
+
+2023-12-28 12:56:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_RAView All"), 0): Object 'Object Repository/Page_Homescreen/button_RAView All' is present
+
+2023-12-28 12:56:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_RAView All' is present
+
+2023-12-28 12:56:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is present
+
+2023-12-28 12:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is present
+
+2023-12-28 12:56:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/icon_BulletinMemo' is present
+
+2023-12-28 12:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_BulletinMemo' is present
+
+2023-12-28 12:56:29 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_BulletinMemo")): Taking screenshot successfully
+
+2023-12-28 12:56:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:56:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739389203.png]]
+
+2023-12-28 12:56:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_PublishedBM"), "Published"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_PublishedBM' are matched.
+
+2023-12-28 12:56:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_PublishedBM' are matched.
+
+2023-12-28 12:56:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Bulletin Memo"), "Bulletin Memo"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Bulletin Memo' are matched.
+
+2023-12-28 12:56:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Bulletin Memo' are matched.
+
+2023-12-28 12:56:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_BMView All"), 0): Object 'Object Repository/Page_Homescreen/button_BMView All' is present
+
+2023-12-28 12:56:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_BMView All' is present
+
+2023-12-28 12:56:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_Tickets"), 0): Object 'Object Repository/Page_Homescreen/counter_Tickets' is present
+
+2023-12-28 12:56:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_Tickets' is present
+
+2023-12-28 12:56:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_Tickets"), 0): Object 'Object Repository/Page_Homescreen/icon_Tickets' is present
+
+2023-12-28 12:56:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_Tickets' is present
+
+2023-12-28 12:56:32 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_Tickets")): Taking screenshot successfully
+
+2023-12-28 12:56:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:56:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739392203.png]]
+
+2023-12-28 12:56:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Open"), "Open"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Open' are matched.
+
+2023-12-28 12:56:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Open' are matched.
+
+2023-12-28 12:56:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Tickets"), "Tickets"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Tickets' are matched.
+
+2023-12-28 12:56:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Tickets' are matched.
+
+2023-12-28 12:56:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_TicketsView All"), 0): Object 'Object Repository/Page_Homescreen/button_TicketsView All' is present
+
+2023-12-28 12:56:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:56:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_TicketsView All' is present
+
+2023-12-28 12:56:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 12:56:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC002_Admin_LandingPage" time="38.237" classname="Test Cases/Sprint 1/Dashboard_TC/TC002_Admin_LandingPage" status="PASSED">
+         <system-out><![CDATA[2023-12-28 12:56:34 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC002_Admin_LandingPage: Test Cases/Sprint 1/Dashboard_TC/TC002_Admin_LandingPage
+
+2023-12-28 12:56:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin' successfully
+
+2023-12-28 12:56:35 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin: Test Cases/Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin
+
+2023-12-28 12:56:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 12:56:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 12:56:36 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 12:56:36 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 12:56:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 12:56:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 12:56:37 - [TEST_STEP][PASSED] - navigateToUrl(URL_commandCenter): Navigate to 'https://10.143.206.85/watsonsauthentication/' successfully
+
+2023-12-28 12:56:42 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/watsonsauthentication/' successfully
+
+2023-12-28 12:56:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username"), admin_username): Text 'mobarak.dimalotang+01@tesi.com.ph' is set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username'
+
+2023-12-28 12:56:43 - [MESSAGE][PASSED] - Text 'mobarak.dimalotang+01@tesi.com.ph' is set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username'
+
+2023-12-28 12:56:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password"), admin_password): Text ****** has been set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password'
+
+2023-12-28 12:56:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password'
+
+2023-12-28 12:56:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login")): Object: 'Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login' is clicked on
+
+2023-12-28 12:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login' is clicked on
+
+2023-12-28 12:56:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER"), "WATSONS COMMAND CENTER"): Actual text and expected text of test object 'Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER' are matched.
+
+2023-12-28 12:56:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER' are matched.
+
+2023-12-28 12:56:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/titleHeader_Select Application to access"), "Select Application to access"): Actual text and expected text of test object 'Object Repository/Page_Application List/titleHeader_Select Application to access' are matched.
+
+2023-12-28 12:57:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/titleHeader_Select Application to access' are matched.
+
+2023-12-28 12:57:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal"), 0): Object 'Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal' is present
+
+2023-12-28 12:57:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal' is present
+
+2023-12-28 12:57:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal"), "Non-Trade Vendor Portal"): Actual text and expected text of test object 'Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal' are matched.
+
+2023-12-28 12:57:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal' are matched.
+
+2023-12-28 12:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal")): Object: 'Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal' is clicked on
+
+2023-12-28 12:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal' is clicked on
+
+2023-12-28 12:57:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access"), "Watsons User Role & Access"): Actual text and expected text of test object 'Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access' are matched.
+
+2023-12-28 12:57:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access' are matched.
+
+2023-12-28 12:57:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin' successfully
+
+2023-12-28 12:57:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/AdminMenu/adminMenu_Watsons Command Center"), "Watsons Command Center"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/AdminMenu/adminMenu_Watsons Command Center' are matched.
+
+2023-12-28 12:57:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/AdminMenu/adminMenu_Watsons Command Center' are matched.
+
+2023-12-28 12:57:09 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home"), 2): Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home' located by 'By.xpath: //div[@id='b2-PageLinks']/a[2]/span' is not present after '2' second(s)
+
+2023-12-28 12:57:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home' located by 'By.xpath: //div[@id='b2-PageLinks']/a[2]/span' is not present after '2' second(s)
+
+2023-12-28 12:57:10 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports"), 2): Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports' located by 'By.xpath: //div[@id='b2-b2-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:57:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports' located by 'By.xpath: //div[@id='b2-b2-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:57:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/AdminMenu/adminMenu_Admin"), "Admin"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/AdminMenu/adminMenu_Admin' are matched.
+
+2023-12-28 12:57:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/AdminMenu/adminMenu_Admin' are matched.
+
+2023-12-28 12:57:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/AdminMenu/adminMenu_Ticket"), "Ticket"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/AdminMenu/adminMenu_Ticket' are matched.
+
+2023-12-28 12:57:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/AdminMenu/adminMenu_Ticket' are matched.
+
+2023-12-28 12:57:11 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload"), 2): Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload' located by 'By.xpath: //div[@id='b2-b4-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:57:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload' located by 'By.xpath: //div[@id='b2-b4-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:57:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/AdminMenu/admin Menu_Audit Trail"), "Audit Trail"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/AdminMenu/admin Menu_Audit Trail' are matched.
+
+2023-12-28 12:57:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/AdminMenu/admin Menu_Audit Trail' are matched.
+
+2023-12-28 12:57:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access"), "Watsons User Role & Access"): Actual text and expected text of test object 'Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access' are matched.
+
+2023-12-28 12:57:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access' are matched.
+
+2023-12-28 12:57:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 12:57:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC003_AP_Dashboard" time="27.229" classname="Test Cases/Sprint 1/Dashboard_TC/TC003_AP_Dashboard" status="PASSED">
+         <system-out><![CDATA[2023-12-28 12:57:13 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC003_AP_Dashboard: Test Cases/Sprint 1/Dashboard_TC/TC003_AP_Dashboard
+
+2023-12-28 12:57:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP' successfully
+
+2023-12-28 12:57:13 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP: Test Cases/Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP
+
+2023-12-28 12:57:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 12:57:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 12:57:14 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 12:57:14 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 12:57:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 12:57:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 12:57:15 - [TEST_STEP][PASSED] - navigateToUrl(URL_commandCenter): Navigate to 'https://10.143.206.85/watsonsauthentication/' successfully
+
+2023-12-28 12:57:16 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/watsonsauthentication/' successfully
+
+2023-12-28 12:57:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username"), AP_username): Text 'janima.camar+2@tesi.com.ph' is set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username'
+
+2023-12-28 12:57:17 - [MESSAGE][PASSED] - Text 'janima.camar+2@tesi.com.ph' is set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_username'
+
+2023-12-28 12:57:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password"), AP_password): Text ****** has been set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password'
+
+2023-12-28 12:57:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_WATSONS COMMAND CENTER_password'
+
+2023-12-28 12:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login")): Object: 'Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login' is clicked on
+
+2023-12-28 12:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_WATSONS COMMAND CENTER_login' is clicked on
+
+2023-12-28 12:57:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER"), "WATSONS COMMAND CENTER"): Actual text and expected text of test object 'Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER' are matched.
+
+2023-12-28 12:57:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/titlePage_WATSONS COMMAND CENTER' are matched.
+
+2023-12-28 12:57:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/titleHeader_Select Application to access"), "Select Application to access"): Actual text and expected text of test object 'Object Repository/Page_Application List/titleHeader_Select Application to access' are matched.
+
+2023-12-28 12:57:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/titleHeader_Select Application to access' are matched.
+
+2023-12-28 12:57:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal"), 0): Object 'Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal' is present
+
+2023-12-28 12:57:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Application List/APcontainer_Non-Trade Vendor Portal' is present
+
+2023-12-28 12:57:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal"), "Non-Trade Vendor Portal"): Actual text and expected text of test object 'Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal' are matched.
+
+2023-12-28 12:57:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal' are matched.
+
+2023-12-28 12:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal")): Object: 'Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal' is clicked on
+
+2023-12-28 12:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Application List/APcontainerLabel_Non-Trade Vendor Portal' is clicked on
+
+2023-12-28 12:57:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:57:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:57:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP' successfully
+
+2023-12-28 12:57:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center"), "Watsons Command Center"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center' are matched.
+
+2023-12-28 12:57:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center' are matched.
+
+2023-12-28 12:57:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home' are matched.
+
+2023-12-28 12:57:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home' are matched.
+
+2023-12-28 12:57:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports"), "Reports"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports' are matched.
+
+2023-12-28 12:57:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports' are matched.
+
+2023-12-28 12:57:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin"), 2): Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin' located by 'By.xpath: //div[@id='b2-b3-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:57:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin' located by 'By.xpath: //div[@id='b2-b3-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:57:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket"), "Ticket"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket' are matched.
+
+2023-12-28 12:57:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket' are matched.
+
+2023-12-28 12:57:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload"), "Upload"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload' are matched.
+
+2023-12-28 12:57:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload' are matched.
+
+2023-12-28 12:57:27 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail"), 2): Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail' located by 'By.xpath: //div[@id='b2-PageLinks']/a[4]/span' is not present after '2' second(s)
+
+2023-12-28 12:57:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail' located by 'By.xpath: //div[@id='b2-PageLinks']/a[4]/span' is not present after '2' second(s)
+
+2023-12-28 12:57:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_Form2307"), 0): Object 'Object Repository/Page_Homescreen/container_Form2307' is present
+
+2023-12-28 12:57:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_Form2307' is present
+
+2023-12-28 12:57:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/container_RemittanceAdvice' is present
+
+2023-12-28 12:57:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_RemittanceAdvice' is present
+
+2023-12-28 12:57:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/container_BulletinMemo' is present
+
+2023-12-28 12:57:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_BulletinMemo' is present
+
+2023-12-28 12:57:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_Tickets"), 0): Object 'Object Repository/Page_Homescreen/container_Tickets' is present
+
+2023-12-28 12:57:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_Tickets' is present
+
+2023-12-28 12:57:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_Form2307"), 0): Object 'Object Repository/Page_Homescreen/counter_Form2307' is present
+
+2023-12-28 12:57:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_Form2307' is present
+
+2023-12-28 12:57:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_Form2307"), 0): Object 'Object Repository/Page_Homescreen/icon_Form2307' is present
+
+2023-12-28 12:57:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_Form2307' is present
+
+2023-12-28 12:57:30 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_Form2307")): Taking screenshot successfully
+
+2023-12-28 12:57:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:57:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739450189.png]]
+
+2023-12-28 12:57:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_UnreadForm2307"), "Unread"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadForm2307' are matched.
+
+2023-12-28 12:57:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadForm2307' are matched.
+
+2023-12-28 12:57:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Form 2307"), "Form 2307"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Form 2307' are matched.
+
+2023-12-28 12:57:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Form 2307' are matched.
+
+2023-12-28 12:57:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/buttonForm2307_View All"), 0): Object 'Object Repository/Page_Homescreen/buttonForm2307_View All' is present
+
+2023-12-28 12:57:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/buttonForm2307_View All' is present
+
+2023-12-28 12:57:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is present
+
+2023-12-28 12:57:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is present
+
+2023-12-28 12:57:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/icon_RemittanceAdvice' is present
+
+2023-12-28 12:57:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_RemittanceAdvice' is present
+
+2023-12-28 12:57:32 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_RemittanceAdvice")): Taking screenshot successfully
+
+2023-12-28 12:57:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:57:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739452752.png]]
+
+2023-12-28 12:57:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_UnreadRA"), "Unread"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadRA' are matched.
+
+2023-12-28 12:57:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadRA' are matched.
+
+2023-12-28 12:57:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Remittance Advice"), "Remittance Advice"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Remittance Advice' are matched.
+
+2023-12-28 12:57:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Remittance Advice' are matched.
+
+2023-12-28 12:57:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_RAView All"), 0): Object 'Object Repository/Page_Homescreen/button_RAView All' is present
+
+2023-12-28 12:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_RAView All' is present
+
+2023-12-28 12:57:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is present
+
+2023-12-28 12:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is present
+
+2023-12-28 12:57:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/icon_BulletinMemo' is present
+
+2023-12-28 12:57:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_BulletinMemo' is present
+
+2023-12-28 12:57:35 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_BulletinMemo")): Taking screenshot successfully
+
+2023-12-28 12:57:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:57:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739455430.png]]
+
+2023-12-28 12:57:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_PublishedBM"), "Published"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_PublishedBM' are matched.
+
+2023-12-28 12:57:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_PublishedBM' are matched.
+
+2023-12-28 12:57:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Bulletin Memo"), "Bulletin Memo"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Bulletin Memo' are matched.
+
+2023-12-28 12:57:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Bulletin Memo' are matched.
+
+2023-12-28 12:57:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_BMView All"), 0): Object 'Object Repository/Page_Homescreen/button_BMView All' is present
+
+2023-12-28 12:57:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_BMView All' is present
+
+2023-12-28 12:57:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_Tickets"), 0): Object 'Object Repository/Page_Homescreen/counter_Tickets' is present
+
+2023-12-28 12:57:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_Tickets' is present
+
+2023-12-28 12:57:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_Tickets"), 0): Object 'Object Repository/Page_Homescreen/icon_Tickets' is present
+
+2023-12-28 12:57:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_Tickets' is present
+
+2023-12-28 12:57:37 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_Tickets")): Taking screenshot successfully
+
+2023-12-28 12:57:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:57:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739457972.png]]
+
+2023-12-28 12:57:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Open"), "Open"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Open' are matched.
+
+2023-12-28 12:57:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Open' are matched.
+
+2023-12-28 12:57:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Tickets"), "Tickets"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Tickets' are matched.
+
+2023-12-28 12:57:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Tickets' are matched.
+
+2023-12-28 12:57:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_TicketsView All"), 0): Object 'Object Repository/Page_Homescreen/button_TicketsView All' is present
+
+2023-12-28 12:57:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:57:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_TicketsView All' is present
+
+2023-12-28 12:57:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 12:57:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC004_Vendor_Dashboard" time="78.501" classname="Test Cases/Sprint 1/Dashboard_TC/TC004_Vendor_Dashboard" status="PASSED">
+         <system-out><![CDATA[2023-12-28 12:57:40 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC004_Vendor_Dashboard: Test Cases/Sprint 1/Dashboard_TC/TC004_Vendor_Dashboard
+
+2023-12-28 12:57:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 12:57:40 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor: Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor
+
+2023-12-28 12:57:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 12:57:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 12:57:41 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 12:57:41 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 12:57:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 12:57:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 12:57:42 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 12:57:45 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 12:57:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), vendor_username): Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 12:57:51 - [MESSAGE][PASSED] - Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 12:57:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), vendor_password): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 12:57:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 12:57:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 12:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 12:57:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 12:57:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 12:57:56 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendorhomepage): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 12:58:38 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 12:58:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:58:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:58:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 12:58:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:58:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:58:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Home' are matched.
+
+2023-12-28 12:58:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Home' are matched.
+
+2023-12-28 12:58:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Reports"), "Reports"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Reports' are matched.
+
+2023-12-28 12:58:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Reports' are matched.
+
+2023-12-28 12:58:44 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin"), 2): Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin' located by 'By.xpath: //div[@id='b2-b3-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:58:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin' located by 'By.xpath: //div[@id='b2-b3-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:58:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Ticket"), "Ticket"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Ticket' are matched.
+
+2023-12-28 12:58:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Ticket' are matched.
+
+2023-12-28 12:58:45 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload"), 2): Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload' located by 'By.xpath: //div[@id='b2-b4-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:58:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload' located by 'By.xpath: //div[@id='b2-b4-Menu']/span' is not present after '2' second(s)
+
+2023-12-28 12:58:45 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail"), 2): Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail' located by 'By.xpath: //div[@id='b2-PageLinks']/a[4]/span' is not present after '2' second(s)
+
+2023-12-28 12:58:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail' located by 'By.xpath: //div[@id='b2-PageLinks']/a[4]/span' is not present after '2' second(s)
+
+2023-12-28 12:58:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_Form2307"), 0): Object 'Object Repository/Page_Homescreen/container_Form2307' is present
+
+2023-12-28 12:58:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_Form2307' is present
+
+2023-12-28 12:58:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/container_RemittanceAdvice' is present
+
+2023-12-28 12:58:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_RemittanceAdvice' is present
+
+2023-12-28 12:58:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/container_BulletinMemo' is present
+
+2023-12-28 12:58:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_BulletinMemo' is present
+
+2023-12-28 12:58:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/container_Tickets"), 0): Object 'Object Repository/Page_Homescreen/container_Tickets' is present
+
+2023-12-28 12:58:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/container_Tickets' is present
+
+2023-12-28 12:58:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_Form2307"), 0): Object 'Object Repository/Page_Homescreen/counter_Form2307' is present
+
+2023-12-28 12:58:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_Form2307' is present
+
+2023-12-28 12:58:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_Form2307"), 0): Object 'Object Repository/Page_Homescreen/icon_Form2307' is present
+
+2023-12-28 12:58:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_Form2307' is present
+
+2023-12-28 12:58:48 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_Form2307")): Taking screenshot successfully
+
+2023-12-28 12:58:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:58:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739528486.png]]
+
+2023-12-28 12:58:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_UnreadForm2307"), "Unread"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadForm2307' are matched.
+
+2023-12-28 12:58:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadForm2307' are matched.
+
+2023-12-28 12:58:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Form 2307"), "Form 2307"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Form 2307' are matched.
+
+2023-12-28 12:58:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Form 2307' are matched.
+
+2023-12-28 12:58:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/buttonForm2307_View All"), 0): Object 'Object Repository/Page_Homescreen/buttonForm2307_View All' is present
+
+2023-12-28 12:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/buttonForm2307_View All' is present
+
+2023-12-28 12:58:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is present
+
+2023-12-28 12:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is present
+
+2023-12-28 12:58:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_RemittanceAdvice"), 0): Object 'Object Repository/Page_Homescreen/icon_RemittanceAdvice' is present
+
+2023-12-28 12:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_RemittanceAdvice' is present
+
+2023-12-28 12:58:51 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_RemittanceAdvice")): Taking screenshot successfully
+
+2023-12-28 12:58:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:58:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739531050.png]]
+
+2023-12-28 12:58:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_UnreadRA"), "Unread"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadRA' are matched.
+
+2023-12-28 12:58:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_UnreadRA' are matched.
+
+2023-12-28 12:58:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Remittance Advice"), "Remittance Advice"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Remittance Advice' are matched.
+
+2023-12-28 12:58:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Remittance Advice' are matched.
+
+2023-12-28 12:58:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_RAView All"), 0): Object 'Object Repository/Page_Homescreen/button_RAView All' is present
+
+2023-12-28 12:58:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_RAView All' is present
+
+2023-12-28 12:58:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is present
+
+2023-12-28 12:58:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is present
+
+2023-12-28 12:58:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_BulletinMemo"), 0): Object 'Object Repository/Page_Homescreen/icon_BulletinMemo' is present
+
+2023-12-28 12:58:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_BulletinMemo' is present
+
+2023-12-28 12:58:53 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_BulletinMemo")): Taking screenshot successfully
+
+2023-12-28 12:58:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:58:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739533469.png]]
+
+2023-12-28 12:58:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_PublishedBM"), "Published"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_PublishedBM' are matched.
+
+2023-12-28 12:58:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_PublishedBM' are matched.
+
+2023-12-28 12:58:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Bulletin Memo"), "Bulletin Memo"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Bulletin Memo' are matched.
+
+2023-12-28 12:58:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Bulletin Memo' are matched.
+
+2023-12-28 12:58:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_BMView All"), 0): Object 'Object Repository/Page_Homescreen/button_BMView All' is present
+
+2023-12-28 12:58:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_BMView All' is present
+
+2023-12-28 12:58:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/counter_Tickets"), 0): Object 'Object Repository/Page_Homescreen/counter_Tickets' is present
+
+2023-12-28 12:58:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/counter_Tickets' is present
+
+2023-12-28 12:58:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_Tickets"), 0): Object 'Object Repository/Page_Homescreen/icon_Tickets' is present
+
+2023-12-28 12:58:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_Tickets' is present
+
+2023-12-28 12:58:56 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Object Repository/Page_Homescreen/icon_Tickets")): Taking screenshot successfully
+
+2023-12-28 12:58:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-28 12:58:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\ProjectHermes\\Reports\\20231228_125538\\Dashboad_Regression\\20231228_125538\\1703739536094.png]]
+
+2023-12-28 12:58:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Open"), "Open"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Open' are matched.
+
+2023-12-28 12:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Open' are matched.
+
+2023-12-28 12:58:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/label_Tickets"), "Tickets"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Tickets' are matched.
+
+2023-12-28 12:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/label_Tickets' are matched.
+
+2023-12-28 12:58:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/button_TicketsView All"), 0): Object 'Object Repository/Page_Homescreen/button_TicketsView All' is present
+
+2023-12-28 12:58:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-28 12:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/button_TicketsView All' is present
+
+2023-12-28 12:58:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 12:58:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC005_ViewUnreadRA" time="56.989" classname="Test Cases/Sprint 1/Dashboard_TC/TC005_ViewUnreadRA" status="PASSED">
+         <system-out><![CDATA[2023-12-28 12:58:58 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC005_ViewUnreadRA: Test Cases/Sprint 1/Dashboard_TC/TC005_ViewUnreadRA
+
+2023-12-28 12:58:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 12:59:00 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor: Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor
+
+2023-12-28 12:59:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 12:59:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 12:59:00 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 12:59:00 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 12:59:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 12:59:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 12:59:01 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 12:59:02 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 12:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), vendor_username): Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 12:59:05 - [MESSAGE][PASSED] - Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 12:59:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), vendor_password): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 12:59:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 12:59:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 12:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 12:59:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 12:59:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 12:59:09 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendorhomepage): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 12:59:49 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 12:59:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:59:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 12:59:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 12:59:52 - [TEST_STEP][PASSED] - unRead_RA = getText(findTestObject("Object Repository/Page_Homescreen/counter_RemittanceAdvice")): Text of object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is: '0'
+
+2023-12-28 12:59:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is: '0'
+
+2023-12-28 12:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/counter_RemittanceAdvice")): Object: 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is clicked on
+
+2023-12-28 12:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is clicked on
+
+2023-12-28 12:59:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/popupUnread_Remittance Advice"), "Remittance Advice"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupUnread_Remittance Advice' are matched.
+
+2023-12-28 12:59:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupUnread_Remittance Advice' are matched.
+
+2023-12-28 12:59:54 - [TEST_STEP][PASSED] - isMatch = false: null
+
+2023-12-28 12:59:54 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-12-28 12:59:54 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//*[@id="RAPopUp"]/div/div[2]")): null
+
+2023-12-28 12:59:54 - [TEST_STEP][PASSED] - table_row = Table.findElements(By.className("list-item")): null
+
+2023-12-28 12:59:54 - [TEST_STEP][PASSED] - rows_count = table_row.size(): null
+
+2023-12-28 12:59:54 - [TEST_STEP][PASSED] - println($rows_count): null
+
+2023-12-28 12:59:54 - [TEST_STEP][PASSED] - verifyEqual(unRead_RA, rows_count): Actual object '0' and expected object '0' are equal
+
+2023-12-28 12:59:54 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2023-12-28 12:59:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/close_Icon")): Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 12:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 12:59:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 12:59:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC006_ViewUnreadForm2307" time="55.935" classname="Test Cases/Sprint 1/Dashboard_TC/TC006_ViewUnreadForm2307" status="PASSED">
+         <system-out><![CDATA[2023-12-28 12:59:55 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC006_ViewUnreadForm2307: Test Cases/Sprint 1/Dashboard_TC/TC006_ViewUnreadForm2307
+
+2023-12-28 12:59:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 12:59:56 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor: Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor
+
+2023-12-28 12:59:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 12:59:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 12:59:56 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 12:59:56 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 12:59:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 12:59:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 12:59:58 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 12:59:58 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 12:59:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), vendor_username): Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:00:01 - [MESSAGE][PASSED] - Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:00:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), vendor_password): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:00:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:00:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 13:00:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 13:00:05 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendorhomepage): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:00:45 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:00:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:00:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:00:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 13:00:48 - [TEST_STEP][PASSED] - unRead_Form2307 = getText(findTestObject("Object Repository/Page_Homescreen/counter_Form2307")): Text of object 'Object Repository/Page_Homescreen/counter_Form2307' is: '0'
+
+2023-12-28 13:00:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Homescreen/counter_Form2307' is: '0'
+
+2023-12-28 13:00:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/counter_Form2307")): Object: 'Object Repository/Page_Homescreen/counter_Form2307' is clicked on
+
+2023-12-28 13:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/counter_Form2307' is clicked on
+
+2023-12-28 13:00:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/popupUnread_Form 2307"), "Form 2307"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupUnread_Form 2307' are matched.
+
+2023-12-28 13:00:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupUnread_Form 2307' are matched.
+
+2023-12-28 13:00:50 - [TEST_STEP][PASSED] - isMatch = false: null
+
+2023-12-28 13:00:50 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-12-28 13:00:50 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//*[@id="Form2307Pop"]/div/div[2]")): null
+
+2023-12-28 13:00:50 - [TEST_STEP][PASSED] - table_row = Table.findElements(By.className("list-item")): null
+
+2023-12-28 13:00:50 - [TEST_STEP][PASSED] - rows_count = table_row.size(): null
+
+2023-12-28 13:00:50 - [TEST_STEP][PASSED] - println($rows_count): null
+
+2023-12-28 13:00:50 - [TEST_STEP][PASSED] - verifyEqual(unRead_Form2307, rows_count): Actual object '0' and expected object '0' are equal
+
+2023-12-28 13:00:50 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2023-12-28 13:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/close_Icon")): Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:00:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 13:00:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC007_ViewPublishedBulletinMemo" time="59.482" classname="Test Cases/Sprint 1/Dashboard_TC/TC007_ViewPublishedBulletinMemo" status="PASSED">
+         <system-out><![CDATA[2023-12-28 13:00:51 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC007_ViewPublishedBulletinMemo: Test Cases/Sprint 1/Dashboard_TC/TC007_ViewPublishedBulletinMemo
+
+2023-12-28 13:00:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 13:00:52 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor: Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor
+
+2023-12-28 13:00:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 13:00:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 13:00:52 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 13:00:52 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 13:00:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 13:00:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 13:00:54 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:00:54 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:00:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), vendor_username): Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:00:57 - [MESSAGE][PASSED] - Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:00:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), vendor_password): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:00:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:00:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 13:01:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 13:01:01 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendorhomepage): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:01:42 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:01:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:01:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:01:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 13:01:48 - [TEST_STEP][PASSED] - published_BM = getText(findTestObject("Object Repository/Page_Homescreen/counter_BulletinMemo")): Text of object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is: '1'
+
+2023-12-28 13:01:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is: '1'
+
+2023-12-28 13:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/counter_BulletinMemo")): Object: 'Object Repository/Page_Homescreen/counter_BulletinMemo' is clicked on
+
+2023-12-28 13:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/counter_BulletinMemo' is clicked on
+
+2023-12-28 13:01:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/popupPublished_Bulletin Memo"), "Bulletin Memo"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupPublished_Bulletin Memo' are matched.
+
+2023-12-28 13:01:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupPublished_Bulletin Memo' are matched.
+
+2023-12-28 13:01:49 - [TEST_STEP][PASSED] - isMatch = false: null
+
+2023-12-28 13:01:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-12-28 13:01:49 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//*[@id="BulletinListAll" or @id="BulletinListByVendor"]")): null
+
+2023-12-28 13:01:49 - [TEST_STEP][PASSED] - table_row = Table.findElements(By.className("list-item")): null
+
+2023-12-28 13:01:50 - [TEST_STEP][PASSED] - rows_count = table_row.size(): null
+
+2023-12-28 13:01:50 - [TEST_STEP][PASSED] - println($rows_count): null
+
+2023-12-28 13:01:50 - [TEST_STEP][PASSED] - verifyEqual(published_BM, rows_count): Actual object '1' and expected object '1' are equal
+
+2023-12-28 13:01:50 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2023-12-28 13:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/close_Icon")): Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:01:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 13:01:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC008_ViewOpenTickets" time="58.714" classname="Test Cases/Sprint 1/Dashboard_TC/TC008_ViewOpenTickets" status="PASSED">
+         <system-out><![CDATA[2023-12-28 13:01:51 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC008_ViewOpenTickets: Test Cases/Sprint 1/Dashboard_TC/TC008_ViewOpenTickets
+
+2023-12-28 13:01:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 13:01:52 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor: Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor
+
+2023-12-28 13:01:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 13:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 13:01:52 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 13:01:52 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 13:01:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 13:01:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 13:01:53 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:01:54 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:01:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), vendor_username): Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:01:58 - [MESSAGE][PASSED] - Text '12132023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:01:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), vendor_password): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:01:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:01:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 13:02:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 13:02:02 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendorhomepage): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:02:43 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:02:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:02:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:02:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor' successfully
+
+2023-12-28 13:02:46 - [TEST_STEP][PASSED] - open_Tickets = getText(findTestObject("Object Repository/Page_Homescreen/counter_Tickets")): Text of object 'Object Repository/Page_Homescreen/counter_Tickets' is: '4'
+
+2023-12-28 13:02:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Homescreen/counter_Tickets' is: '4'
+
+2023-12-28 13:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/counter_Tickets")): Object: 'Object Repository/Page_Homescreen/counter_Tickets' is clicked on
+
+2023-12-28 13:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/counter_Tickets' is clicked on
+
+2023-12-28 13:02:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/popupOpen_Tickets"), "Tickets"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupOpen_Tickets' are matched.
+
+2023-12-28 13:02:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupOpen_Tickets' are matched.
+
+2023-12-28 13:02:48 - [TEST_STEP][PASSED] - isMatch = false: null
+
+2023-12-28 13:02:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-12-28 13:02:48 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//*[@id="BulletinListAll2" or @id="BulletinListByVendor2"]")): null
+
+2023-12-28 13:02:48 - [TEST_STEP][PASSED] - table_row = Table.findElements(By.className("list-item")): null
+
+2023-12-28 13:02:48 - [TEST_STEP][PASSED] - rows_count = table_row.size(): null
+
+2023-12-28 13:02:48 - [TEST_STEP][PASSED] - println($rows_count): null
+
+2023-12-28 13:02:48 - [TEST_STEP][PASSED] - verifyEqual(open_Tickets, rows_count): Actual object '4' and expected object '4' are equal
+
+2023-12-28 13:02:48 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2023-12-28 13:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/close_Icon")): Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:02:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 13:02:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC009_ViewUnreadRA_NoRecords" time="55.926" classname="Test Cases/Sprint 1/Dashboard_TC/TC009_ViewUnreadRA_NoRecords" status="PASSED">
+         <system-out><![CDATA[2023-12-28 13:02:50 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC009_ViewUnreadRA_NoRecords: Test Cases/Sprint 1/Dashboard_TC/TC009_ViewUnreadRA_NoRecords
+
+2023-12-28 13:02:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 13:02:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 13:02:51 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 13:02:51 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 13:02:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 13:02:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 13:02:52 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:02:53 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), "12202023_VP"): Text '12202023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:02:55 - [MESSAGE][PASSED] - Text '12202023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:02:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), "xngilo02Z2BNHXedMmXvHw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:02:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:02:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:02:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-12-28 13:02:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-28 13:02:59 - [TEST_STEP][PASSED] - navigateToUrl("https://10.143.206.85/NonTradeVendorPortal/"): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:03:40 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:03:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:03:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:03:42 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_Homescreen/counter_RemittanceAdvice")): Text of object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is: '0'
+
+2023-12-28 13:03:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is: '0'
+
+2023-12-28 13:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/counter_RemittanceAdvice")): Object: 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is clicked on
+
+2023-12-28 13:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/counter_RemittanceAdvice' is clicked on
+
+2023-12-28 13:03:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/popupUnread_Remittance Advice"), "Remittance Advice"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupUnread_Remittance Advice' are matched.
+
+2023-12-28 13:03:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupUnread_Remittance Advice' are matched.
+
+2023-12-28 13:03:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_NoRecords"), 2): Object 'Object Repository/Page_Homescreen/icon_NoRecords' is present
+
+2023-12-28 13:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_NoRecords' is present
+
+2023-12-28 13:03:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/text_No records have been added yet"), "No records have been added yet"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/text_No records have been added yet' are matched.
+
+2023-12-28 13:03:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/text_No records have been added yet' are matched.
+
+2023-12-28 13:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/close_Icon")): Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:03:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 13:03:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC010_ViewUnreadForm2307_NoRecords" time="55.156" classname="Test Cases/Sprint 1/Dashboard_TC/TC010_ViewUnreadForm2307_NoRecords" status="PASSED">
+         <system-out><![CDATA[2023-12-28 13:03:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC010_ViewUnreadForm2307_NoRecords: Test Cases/Sprint 1/Dashboard_TC/TC010_ViewUnreadForm2307_NoRecords
+
+2023-12-28 13:03:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 13:03:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 13:03:46 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 13:03:46 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 13:03:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 13:03:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 13:03:47 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:03:48 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:03:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), "12202023_VP"): Text '12202023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:03:51 - [MESSAGE][PASSED] - Text '12202023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:03:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), "xngilo02Z2BNHXedMmXvHw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:03:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:03:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-12-28 13:03:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-28 13:03:54 - [TEST_STEP][PASSED] - navigateToUrl("https://10.143.206.85/NonTradeVendorPortal/"): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:04:35 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:04:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:04:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:04:38 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_Homescreen/counter_Form2307")): Text of object 'Object Repository/Page_Homescreen/counter_Form2307' is: '0'
+
+2023-12-28 13:04:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Homescreen/counter_Form2307' is: '0'
+
+2023-12-28 13:04:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/counter_Form2307")): Object: 'Object Repository/Page_Homescreen/counter_Form2307' is clicked on
+
+2023-12-28 13:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/counter_Form2307' is clicked on
+
+2023-12-28 13:04:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/popupUnread_Form 2307"), "Form 2307"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupUnread_Form 2307' are matched.
+
+2023-12-28 13:04:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupUnread_Form 2307' are matched.
+
+2023-12-28 13:04:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_NoRecords"), 2): Object 'Object Repository/Page_Homescreen/icon_NoRecords' is present
+
+2023-12-28 13:04:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_NoRecords' is present
+
+2023-12-28 13:04:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/text_No records have been added yet"), "No records have been added yet"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/text_No records have been added yet' are matched.
+
+2023-12-28 13:04:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/text_No records have been added yet' are matched.
+
+2023-12-28 13:04:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/close_Icon")): Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:04:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 13:04:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC011_ViewPublishedBulletinMemo_NoRecords" time="54.887" classname="Test Cases/Sprint 1/Dashboard_TC/TC011_ViewPublishedBulletinMemo_NoRecords" status="PASSED">
+         <system-out><![CDATA[2023-12-28 13:04:41 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC011_ViewPublishedBulletinMemo_NoRecords: Test Cases/Sprint 1/Dashboard_TC/TC011_ViewPublishedBulletinMemo_NoRecords
+
+2023-12-28 13:04:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 13:04:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 13:04:41 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 13:04:41 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 13:04:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 13:04:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 13:04:42 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:04:43 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:04:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), "12202023_VP"): Text '12202023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:04:46 - [MESSAGE][PASSED] - Text '12202023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:04:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), "xngilo02Z2BNHXedMmXvHw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:04:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:04:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-12-28 13:04:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-28 13:04:49 - [TEST_STEP][PASSED] - navigateToUrl("https://10.143.206.85/NonTradeVendorPortal/"): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:05:30 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:05:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:05:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:05:32 - [TEST_STEP][PASSED] - getText(findTestObject("Page_Homescreen/counter_BulletinMemo")): Text of object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is: '0'
+
+2023-12-28 13:05:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Homescreen/counter_BulletinMemo' is: '0'
+
+2023-12-28 13:05:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Homescreen/counter_BulletinMemo")): Object: 'Object Repository/Page_Homescreen/counter_BulletinMemo' is clicked on
+
+2023-12-28 13:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/counter_BulletinMemo' is clicked on
+
+2023-12-28 13:05:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Homescreen/popupPublished_Bulletin Memo"), "Bulletin Memo"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupPublished_Bulletin Memo' are matched.
+
+2023-12-28 13:05:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupPublished_Bulletin Memo' are matched.
+
+2023-12-28 13:05:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_NoRecords"), 2): Object 'Object Repository/Page_Homescreen/icon_NoRecords' is present
+
+2023-12-28 13:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_NoRecords' is present
+
+2023-12-28 13:05:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/text_No records have been added yet"), "No records have been added yet"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/text_No records have been added yet' are matched.
+
+2023-12-28 13:05:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/text_No records have been added yet' are matched.
+
+2023-12-28 13:05:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/close_Icon")): Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:05:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 13:05:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/Dashboard_TC/TC012_ViewOpenTickets_NoRecords" time="55.084" classname="Test Cases/Sprint 1/Dashboard_TC/TC012_ViewOpenTickets_NoRecords" status="PASSED">
+         <system-out><![CDATA[2023-12-28 13:05:36 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/Dashboard_TC/TC012_ViewOpenTickets_NoRecords: Test Cases/Sprint 1/Dashboard_TC/TC012_ViewOpenTickets_NoRecords
+
+2023-12-28 13:05:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-28 13:05:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-28 13:05:36 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, UnexpectedAlertBehaviour=ignore]']
+
+2023-12-28 13:05:36 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-12-28 13:05:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 13:05:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-28 13:05:37 - [TEST_STEP][PASSED] - navigateToUrl(URL_vendor): Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:05:38 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NTVP_TH/Login' successfully
+
+2023-12-28 13:05:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username"), "12202023_VP"): Text '12202023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:05:41 - [MESSAGE][PASSED] - Text '12202023_VP' is set on object 'Object Repository/Page_Login/input_Username'
+
+2023-12-28 13:05:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), "xngilo02Z2BNHXedMmXvHw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:05:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+2023-12-28 13:05:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2023-12-28 13:05:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-12-28 13:05:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-28 13:05:44 - [TEST_STEP][PASSED] - navigateToUrl("https://10.143.206.85/NonTradeVendorPortal/"): Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:06:25 - [MESSAGE][PASSED] - Navigate to 'https://10.143.206.85/NonTradeVendorPortal/' successfully
+
+2023-12-28 13:06:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/titlePage_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:06:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/titlePage_Dashboard' are matched.
+
+2023-12-28 13:06:28 - [TEST_STEP][PASSED] - getText(findTestObject("Page_Homescreen/counter_Tickets")): Text of object 'Object Repository/Page_Homescreen/counter_Tickets' is: '0'
+
+2023-12-28 13:06:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Homescreen/counter_Tickets' is: '0'
+
+2023-12-28 13:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Homescreen/counter_Tickets")): Object: 'Object Repository/Page_Homescreen/counter_Tickets' is clicked on
+
+2023-12-28 13:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/counter_Tickets' is clicked on
+
+2023-12-28 13:06:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Homescreen/popupOpen_Tickets"), "Tickets"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupOpen_Tickets' are matched.
+
+2023-12-28 13:06:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/popupOpen_Tickets' are matched.
+
+2023-12-28 13:06:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Homescreen/icon_NoRecords"), 2): Object 'Object Repository/Page_Homescreen/icon_NoRecords' is present
+
+2023-12-28 13:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Homescreen/icon_NoRecords' is present
+
+2023-12-28 13:06:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Homescreen/text_No records have been added yet"), "No records have been added yet"): Actual text and expected text of test object 'Object Repository/Page_Homescreen/text_No records have been added yet' are matched.
+
+2023-12-28 13:06:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Homescreen/text_No records have been added yet' are matched.
+
+2023-12-28 13:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homescreen/close_Icon")): Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homescreen/close_Icon' is clicked on
+
+2023-12-28 13:06:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 13:06:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-28 12:55:46 - [TEST_SUITE][PASSED] - Dashboad_Regression: Test Cases/Sprint 1/Dashboard_TC/TC012_ViewOpenTickets_NoRecords]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

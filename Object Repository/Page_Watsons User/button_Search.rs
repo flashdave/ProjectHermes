@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>titlePage_Watsons User Role  Access</name>
+   <name>button_Search</name>
    <tag></tag>
-   <elementGuidId>ea0d8884-9ba4-4f11-86ad-cabf4cde0b67</elementGuidId>
+   <elementGuidId>0b5d86ed-554a-44ec-9932-cffa7e643e60</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;Screen_Title&quot;][count(. | //h1[@id = 'Screen_Title' and (text() = 'Watsons User Role &amp; Access' or . = 'Watsons User Role &amp; Access')]) = count(//h1[@id = 'Screen_Title' and (text() = 'Watsons User Role &amp; Access' or . = 'Watsons User Role &amp; Access')])]</value>
+         <key>CSS</key>
+         <value>#btnSave</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h1[@id='Screen_Title']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#Screen_Title</value>
+         <value>//button[@id='btnSave']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,103 +21,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>b80a281e-e20e-4f22-a60e-59b1bec560d0</webElementGuid>
+      <value>button</value>
+      <webElementGuid>92d18ff9-d8c6-42b0-9b52-9601c1cdbcb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>0ac0b4f3-cc3e-41e1-b688-572a5a8e13cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>d7033216-2afd-4e2f-a676-e6d0b0deef0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Screen_Title</value>
-      <webElementGuid>0106b23a-c028-4ce9-a21b-6d1de2cef30e</webElementGuid>
+      <value>btnSave</value>
+      <webElementGuid>bc57a20d-c19a-43b2-9853-171f3f0cb8e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Watsons User Role &amp; Access</value>
-      <webElementGuid>c862f265-4811-48ad-88df-5ec51d3657cb</webElementGuid>
+      <value>Search</value>
+      <webElementGuid>1311adb1-a848-4c91-a758-16e48684648c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Screen_Title&quot;)</value>
-      <webElementGuid>6f0f202b-4e20-4baf-9b5a-672fd32dae64</webElementGuid>
+      <value>id(&quot;btnSave&quot;)</value>
+      <webElementGuid>b3eb36d6-ace7-42a0-9e59-31c7d01f144a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//h1[@id='Screen_Title']</value>
-      <webElementGuid>47d67622-1d20-40b0-a604-d8ea8fb0a3e5</webElementGuid>
+      <value>//button[@id='btnSave']</value>
+      <webElementGuid>f634441f-eb8f-4126-bc9e-b0fc126f3f46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b1-Title']/h1</value>
-      <webElementGuid>dcd10d9b-b78a-4416-85ea-e668536df07a</webElementGuid>
+      <value>//div[@id='b3-Column3']/button</value>
+      <webElementGuid>a665d50c-0950-449f-a5e7-367890f6aff7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::h1[1]</value>
-      <webElementGuid>1f3d1a40-f57f-489a-85e1-039306384542</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use cmd or ctrl + up/down arrow keys to navigate through years;'])[2]/following::button[1]</value>
+      <webElementGuid>0856bb52-0e42-4cf4-9ae6-4041f3584711</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobarak Dimalotang'])[1]/following::h1[1]</value>
-      <webElementGuid>9cfc89b9-5e1b-45f8-b3d5-322524c3ba7c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use cmd or ctrl + right/left arrow keys to navigate through months;'])[2]/following::button[1]</value>
+      <webElementGuid>395c7cb9-757e-4833-9315-50cefc408f74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Update Watsons', &quot;'&quot;, 's User')])[1]/preceding::h1[1]</value>
-      <webElementGuid>a2ab2c04-85bf-48cd-bb60-1a68f630b6e6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</value>
+      <webElementGuid>a6852844-f4f2-47f1-b648-dd6e736fca17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name, Email, Updated By'])[1]/preceding::h1[1]</value>
-      <webElementGuid>0f50aefe-9d52-4080-b439-7ea622662a29</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::button[2]</value>
+      <webElementGuid>98dbce5d-6e68-4102-899f-e9e28428bc96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Watsons User Role &amp; Access']/parent::*</value>
-      <webElementGuid>ac8778a1-cc29-4c61-8bb9-bcbe13684837</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Search']/parent::*</value>
+      <webElementGuid>ef5ebb4c-e8e8-4d21-8a72-2e8e7289c320</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>be82f591-529a-4955-99bb-2fefa6337ee3</webElementGuid>
+      <value>//div[3]/button</value>
+      <webElementGuid>6c14632a-6c0c-434d-b0e0-c03613b478b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[@id = 'Screen_Title' and (text() = 'Watsons User Role &amp; Access' or . = 'Watsons User Role &amp; Access')]</value>
-      <webElementGuid>c75db663-3fc9-488e-b18b-fc6572093097</webElementGuid>
+      <value>//button[@type = 'submit' and @id = 'btnSave' and (text() = 'Search' or . = 'Search')]</value>
+      <webElementGuid>6ebc2e48-390a-4922-9214-b137891cb8ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

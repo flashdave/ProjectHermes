@@ -23,27 +23,36 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword as VerifyMatchKeyword
 import com.kms.katalon.core.helper.KeywordHelper as KeywordHelper
-import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
-import java.text.SimpleDateFormat as SimpleDateFormat
+import org.openqa.selenium.JavascriptExecutor
+import java.text.SimpleDateFormat
+import org.openqa.selenium.JavascriptExecutor
 
 WebUI.callTestCase(findTestCase('Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/AdminMenu/adminMenu_Watsons Command Center'), 
-    'Watsons Command Center')
+WebUI.click(findTestObject('Object Repository/Page_Watsons User/adminMenu_Admin'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home'), 2)
+WebUI.click(findTestObject('Object Repository/Page_Watsons User/subMenu_Watsons User'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports'), 2)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access'), 'Watsons User Role & Access')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/AdminMenu/adminMenu_Admin'), 'Admin')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Watsons User/selection_Rows per page'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/AdminMenu/adminMenu_Ticket'), 'Ticket')
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_Watsons User/selection_Rows per page'), 'Rows per page 100', false)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload'), 2)
+def isMatch = false
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Homescreen/AdminMenu/admin Menu_Audit Trail'), 'Audit Trail')
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Watsons User/titlePage_Watsons User Role  Access'), "Watsons User Role & Access")
+//locate table
+WebElement Table = driver.findElement(By.xpath('//*[@id="WatsonsTable"]/tbody'))
+//To locate rows of table it will Capture all the rows available in the table
+List<WebElement> table_row = Table.findElements(By.tagName('tr'))
+//To calculate no of rows In table
+int rows_count = table_row.size()
+println "$rows_count"
+
+WebUI.verifyEqual(rows_count, 100)
+
 
 WebUI.closeBrowser()
 

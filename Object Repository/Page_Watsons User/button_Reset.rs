@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>titlePage_Watsons User Role  Access</name>
+   <name>button_Reset</name>
    <tag></tag>
-   <elementGuidId>ea0d8884-9ba4-4f11-86ad-cabf4cde0b67</elementGuidId>
+   <elementGuidId>f3de099b-8522-40f2-ba6a-e3c6209cd877</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;Screen_Title&quot;][count(. | //h1[@id = 'Screen_Title' and (text() = 'Watsons User Role &amp; Access' or . = 'Watsons User Role &amp; Access')]) = count(//h1[@id = 'Screen_Title' and (text() = 'Watsons User Role &amp; Access' or . = 'Watsons User Role &amp; Access')])]</value>
+         <key>CSS</key>
+         <value>#btnReset</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h1[@id='Screen_Title']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#Screen_Title</value>
+         <value>//button[@id='btnReset']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,103 +21,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>b80a281e-e20e-4f22-a60e-59b1bec560d0</webElementGuid>
+      <value>button</value>
+      <webElementGuid>88960d66-123f-49ba-96d7-43e1cc229562</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+      <webElementGuid>bcede107-39b8-4151-b0be-3ae34911798f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fbe901df-fad6-41a9-a57f-0494bf5ed24e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Screen_Title</value>
-      <webElementGuid>0106b23a-c028-4ce9-a21b-6d1de2cef30e</webElementGuid>
+      <value>btnReset</value>
+      <webElementGuid>fc319340-bc6e-4bdc-91e2-ecdcb3a1b14d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Watsons User Role &amp; Access</value>
-      <webElementGuid>c862f265-4811-48ad-88df-5ec51d3657cb</webElementGuid>
+      <value>Reset</value>
+      <webElementGuid>ba1e034e-d652-49d4-aeb2-17a852c8dbf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Screen_Title&quot;)</value>
-      <webElementGuid>6f0f202b-4e20-4baf-9b5a-672fd32dae64</webElementGuid>
+      <value>id(&quot;btnReset&quot;)</value>
+      <webElementGuid>986f9aac-b00d-40da-8578-1bd6557b5811</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//h1[@id='Screen_Title']</value>
-      <webElementGuid>47d67622-1d20-40b0-a604-d8ea8fb0a3e5</webElementGuid>
+      <value>//button[@id='btnReset']</value>
+      <webElementGuid>53c5c27d-33a3-42c9-95bb-fb7ce64c0413</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b1-Title']/h1</value>
-      <webElementGuid>dcd10d9b-b78a-4416-85ea-e668536df07a</webElementGuid>
+      <value>//div[@id='b3-Column3']/button[2]</value>
+      <webElementGuid>51054b44-240e-4d56-a6a4-3b2a9f78d1f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::h1[1]</value>
-      <webElementGuid>1f3d1a40-f57f-489a-85e1-039306384542</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::button[1]</value>
+      <webElementGuid>f849e22e-5ba4-4220-8ce4-bc52f32291ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobarak Dimalotang'])[1]/following::h1[1]</value>
-      <webElementGuid>9cfc89b9-5e1b-45f8-b3d5-322524c3ba7c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use cmd or ctrl + up/down arrow keys to navigate through years;'])[2]/following::button[2]</value>
+      <webElementGuid>9f0977f9-2b30-4227-9475-164e45195a35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Update Watsons', &quot;'&quot;, 's User')])[1]/preceding::h1[1]</value>
-      <webElementGuid>a2ab2c04-85bf-48cd-bb60-1a68f630b6e6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::button[1]</value>
+      <webElementGuid>123a1d65-cc8e-4291-aa0d-3c7f7a8b9654</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name, Email, Updated By'])[1]/preceding::h1[1]</value>
-      <webElementGuid>0f50aefe-9d52-4080-b439-7ea622662a29</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::button[1]</value>
+      <webElementGuid>5672d31e-4084-44fe-a6ae-6ac67416f789</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Watsons User Role &amp; Access']/parent::*</value>
-      <webElementGuid>ac8778a1-cc29-4c61-8bb9-bcbe13684837</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Reset']/parent::*</value>
+      <webElementGuid>91b1939f-63ef-4f46-9af2-bab5ffe5b3c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>be82f591-529a-4955-99bb-2fefa6337ee3</webElementGuid>
+      <value>//button[2]</value>
+      <webElementGuid>c290b8e0-bc5d-4485-92b7-d6212e74a6a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[@id = 'Screen_Title' and (text() = 'Watsons User Role &amp; Access' or . = 'Watsons User Role &amp; Access')]</value>
-      <webElementGuid>c75db663-3fc9-488e-b18b-fc6572093097</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'btnReset' and (text() = 'Reset' or . = 'Reset')]</value>
+      <webElementGuid>be6de195-dde3-4c8a-be9b-606c2e83b93d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

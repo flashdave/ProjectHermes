@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Dashboad_Regression,Chrome 120.0.0.0,This test suite is for regression testing of dashboard for different user role,,2023-12-28 10:26:16,2023-12-28 10:30:28,4m - 12.111s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC002_Admin_LandingPage,Chrome 120.0.0.0,,,2023-12-28 10:26:16,2023-12-28 10:26:57,41.531s,FAILED
+"callTestCase(findTestCase(""Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:26:16,2023-12-28 10:26:57,41.195s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC009_ViewUnreadRA_NoRecords,Chrome 120.0.0.0,,,2023-12-28 10:26:57,2023-12-28 10:27:52,54.229s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-28 10:26:58,2023-12-28 10:27:00,1.907s,PASSED
+navigateToUrl(URL_vendor),Chrome 120.0.0.0,,,2023-12-28 10:27:00,2023-12-28 10:27:00,0.741s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username""), ""12202023_VP"")",Chrome 120.0.0.0,,,2023-12-28 10:27:00,2023-12-28 10:27:05,4.265s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""xngilo02Z2BNHXedMmXvHw=="")",Chrome 120.0.0.0,,,2023-12-28 10:27:05,2023-12-28 10:27:05,0.560s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 120.0.0.0,,,2023-12-28 10:27:05,2023-12-28 10:27:06,0.507s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-28 10:27:06,2023-12-28 10:27:08,2.017s,PASSED
+"navigateToUrl(""https://10.143.206.85/NonTradeVendorPortal/"")",Chrome 120.0.0.0,,,2023-12-28 10:27:08,2023-12-28 10:27:08,0.501s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:27:08,2023-12-28 10:27:52,43.374s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC010_ViewUnreadForm2307_NoRecords,Chrome 120.0.0.0,,,2023-12-28 10:27:52,2023-12-28 10:28:44,52.620s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-28 10:27:52,2023-12-28 10:27:54,1.846s,PASSED
+navigateToUrl(URL_vendor),Chrome 120.0.0.0,,,2023-12-28 10:27:54,2023-12-28 10:27:55,0.757s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username""), ""12202023_VP"")",Chrome 120.0.0.0,,,2023-12-28 10:27:55,2023-12-28 10:27:57,2.669s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""xngilo02Z2BNHXedMmXvHw=="")",Chrome 120.0.0.0,,,2023-12-28 10:27:57,2023-12-28 10:27:58,0.713s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 120.0.0.0,,,2023-12-28 10:27:58,2023-12-28 10:27:59,0.502s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-28 10:27:59,2023-12-28 10:28:01,2.010s,PASSED
+"navigateToUrl(""https://10.143.206.85/NonTradeVendorPortal/"")",Chrome 120.0.0.0,,,2023-12-28 10:28:01,2023-12-28 10:28:01,0.370s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:28:01,2023-12-28 10:28:44,43.314s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC011_ViewPublishedBulletinMemo_NoRecords,Chrome 120.0.0.0,,,2023-12-28 10:28:44,2023-12-28 10:29:36,51.822s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-28 10:28:45,2023-12-28 10:28:46,1.853s,PASSED
+navigateToUrl(URL_vendor),Chrome 120.0.0.0,,,2023-12-28 10:28:46,2023-12-28 10:28:47,0.680s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username""), ""12202023_VP"")",Chrome 120.0.0.0,,,2023-12-28 10:28:47,2023-12-28 10:28:49,2.217s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""xngilo02Z2BNHXedMmXvHw=="")",Chrome 120.0.0.0,,,2023-12-28 10:28:49,2023-12-28 10:28:50,0.535s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 120.0.0.0,,,2023-12-28 10:28:50,2023-12-28 10:28:50,0.531s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-28 10:28:50,2023-12-28 10:28:52,2.015s,PASSED
+"navigateToUrl(""https://10.143.206.85/NonTradeVendorPortal/"")",Chrome 120.0.0.0,,,2023-12-28 10:28:52,2023-12-28 10:28:53,0.327s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:28:53,2023-12-28 10:29:36,43.363s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC012_ViewOpenTickets_NoRecords,Chrome 120.0.0.0,,,2023-12-28 10:29:36,2023-12-28 10:30:28,51.696s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-28 10:29:36,2023-12-28 10:29:38,1.825s,PASSED
+navigateToUrl(URL_vendor),Chrome 120.0.0.0,,,2023-12-28 10:29:38,2023-12-28 10:29:39,0.649s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username""), ""12202023_VP"")",Chrome 120.0.0.0,,,2023-12-28 10:29:39,2023-12-28 10:29:41,2.126s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""xngilo02Z2BNHXedMmXvHw=="")",Chrome 120.0.0.0,,,2023-12-28 10:29:41,2023-12-28 10:29:42,0.666s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 120.0.0.0,,,2023-12-28 10:29:42,2023-12-28 10:29:42,0.501s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-28 10:29:42,2023-12-28 10:29:44,2.003s,PASSED
+"navigateToUrl(""https://10.143.206.85/NonTradeVendorPortal/"")",Chrome 120.0.0.0,,,2023-12-28 10:29:44,2023-12-28 10:29:45,0.357s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:29:45,2023-12-28 10:30:28,43.277s,FAILED

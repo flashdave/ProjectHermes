@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>adminMenu_Ticket</name>
+   <name>label_Name, Email, Updated By</name>
    <tag></tag>
-   <elementGuidId>af8df866-1a11-4ff1-a49a-419d3018fa7b</elementGuidId>
+   <elementGuidId>6549eca6-1efd-4d60-a2f1-a0a2e3a58131</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;b14-PageLinks&quot;]/a[2]/span</value>
+         <key>CSS</key>
+         <value>#b2-Column1</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='b2-Column1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,95 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>8e5582fe-e4a1-449c-8cfe-709e5dc84093</webElementGuid>
+      <value>div</value>
+      <webElementGuid>5c3c8034-6f46-4522-a5cf-6536048c5aa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-neutral-0 font-bold</value>
-      <webElementGuid>32c33d91-5906-413c-be64-9d97afd5e2e2</webElementGuid>
+      <value>columns-item</value>
+      <webElementGuid>fb88f326-92c1-42b2-a39c-583be88e534f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-Column1</value>
+      <webElementGuid>6cdb7cd4-b188-437e-bc7e-617939a7108f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ticket</value>
-      <webElementGuid>fd6f1e02-5052-4281-9a44-e245ef800a9d</webElementGuid>
+      <value>Name, Email, Updated By</value>
+      <webElementGuid>44ab2f72-a0f0-45cf-8e98-d2207e8a05ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b12-PageLinks&quot;)/a[@class=&quot;padding-x-base padding-y-s margin-x-xs&quot;]/span[@class=&quot;text-neutral-0 font-bold&quot;]</value>
-      <webElementGuid>df4950b5-7f00-4896-9a46-8d35fcc87213</webElementGuid>
+      <value>id(&quot;b2-Column1&quot;)</value>
+      <webElementGuid>f6abf802-343a-4df0-af82-0fcdb4df41fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-Column1']</value>
+      <webElementGuid>65173c33-ba35-47b3-bb44-6afb66ce186c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b12-PageLinks']/a[2]/span</value>
-      <webElementGuid>54421fb1-7e64-4f53-b38f-752f670ff715</webElementGuid>
+      <value>//div[@id='$b2']/div/div</value>
+      <webElementGuid>7b14440f-e1ef-497f-aeb4-3969e274e840</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Type'])[1]/following::span[1]</value>
-      <webElementGuid>de061745-90f5-4ffa-8ae4-19b7acaef666</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Update Watsons', &quot;'&quot;, 's User')])[1]/following::div[4]</value>
+      <webElementGuid>b9bac6d3-c114-4d44-a2a8-7d5751cd667f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-Signature'])[1]/following::span[2]</value>
-      <webElementGuid>d1013068-b72d-4ebb-bd57-a8b7d30a3655</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons User Role &amp; Access'])[1]/following::div[7]</value>
+      <webElementGuid>8b0929fe-73bf-4a88-ae5f-3a6de89f5759</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::span[1]</value>
-      <webElementGuid>519cdbef-6ac7-4444-bc21-e99df1660d5b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobarak Dimalotang'])[1]/preceding::span[2]</value>
-      <webElementGuid>2ed89468-04d9-4872-a83a-5a1b06ee5611</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ticket']/parent::*</value>
-      <webElementGuid>5b78cd2b-2f56-4667-9f4e-46ebc6e282e6</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Name, Email, Updated By']/parent::*</value>
+      <webElementGuid>8b4eea05-4c5e-4d46-a0b8-a50bd935e0e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]/span</value>
-      <webElementGuid>5de8f210-6ad5-431e-b86d-23571e220768</webElementGuid>
+      <value>//form/div/div/div</value>
+      <webElementGuid>2dd1542d-0c25-4738-a6be-4082db8c7337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Ticket' or . = 'Ticket')]</value>
-      <webElementGuid>6341112a-9b8e-48f9-a64f-dae5bc316591</webElementGuid>
+      <value>//div[@id = 'b2-Column1' and (text() = 'Name, Email, Updated By' or . = 'Name, Email, Updated By')]</value>
+      <webElementGuid>d93c6f6d-5fc7-43a0-9d90-e8f1cd589e22</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

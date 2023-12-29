@@ -1,0 +1,222 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Dashboad_Regression,Chrome 120.0.0.0,This test suite is for regression testing of dashboard for different user role,,2023-12-28 10:15:10,2023-12-28 10:25:34,10m - 24.093s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC001_SP_Dashboard,Chrome 120.0.0.0,,,2023-12-28 10:15:10,2023-12-28 10:15:39,28.711s,PASSED
+"callTestCase(findTestCase(""Sprint 1/CommandCenter_LoginTC/TC001_LoginValidCredentials_SP""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:15:10,2023-12-28 10:15:25,14.717s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center""), ""Watsons Command Center"")",Chrome 120.0.0.0,,,2023-12-28 10:15:25,2023-12-28 10:15:26,0.336s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home""), ""Home"")",Chrome 120.0.0.0,,,2023-12-28 10:15:26,2023-12-28 10:15:26,0.316s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports""), ""Reports"")",Chrome 120.0.0.0,,,2023-12-28 10:15:26,2023-12-28 10:15:26,0.356s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin""), ""Admin"")",Chrome 120.0.0.0,,,2023-12-28 10:15:26,2023-12-28 10:15:26,0.317s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket""), ""Ticket"")",Chrome 120.0.0.0,,,2023-12-28 10:15:26,2023-12-28 10:15:27,0.345s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload""), ""Upload"")",Chrome 120.0.0.0,,,2023-12-28 10:15:27,2023-12-28 10:15:27,0.310s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail""), ""Audit Trail"")",Chrome 120.0.0.0,,,2023-12-28 10:15:27,2023-12-28 10:15:27,0.331s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:27,2023-12-28 10:15:28,0.325s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:28,2023-12-28 10:15:28,0.350s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:28,2023-12-28 10:15:29,0.343s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:29,2023-12-28 10:15:29,0.322s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:29,2023-12-28 10:15:29,0.316s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:29,2023-12-28 10:15:29,0.322s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_Form2307""))",Chrome 120.0.0.0,,,2023-12-28 10:15:29,2023-12-28 10:15:30,0.736s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_UnreadForm2307""), ""Unread"")",Chrome 120.0.0.0,,,2023-12-28 10:15:30,2023-12-28 10:15:31,0.336s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Form 2307""), ""Form 2307"")",Chrome 120.0.0.0,,,2023-12-28 10:15:31,2023-12-28 10:15:31,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/buttonForm2307_View All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:31,2023-12-28 10:15:31,0.333s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:31,2023-12-28 10:15:32,0.326s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:32,2023-12-28 10:15:32,0.325s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_RemittanceAdvice""))",Chrome 120.0.0.0,,,2023-12-28 10:15:32,2023-12-28 10:15:32,0.585s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_UnreadRA""), ""Unread"")",Chrome 120.0.0.0,,,2023-12-28 10:15:32,2023-12-28 10:15:33,0.323s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Remittance Advice""), ""Remittance Advice"")",Chrome 120.0.0.0,,,2023-12-28 10:15:33,2023-12-28 10:15:33,0.314s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_RAView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:33,2023-12-28 10:15:33,0.325s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:33,2023-12-28 10:15:34,0.304s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:34,2023-12-28 10:15:34,0.318s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_BulletinMemo""))",Chrome 120.0.0.0,,,2023-12-28 10:15:34,2023-12-28 10:15:35,0.546s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_PublishedBM""), ""Published"")",Chrome 120.0.0.0,,,2023-12-28 10:15:35,2023-12-28 10:15:35,0.322s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Bulletin Memo""), ""Bulletin Memo"")",Chrome 120.0.0.0,,,2023-12-28 10:15:35,2023-12-28 10:15:35,0.337s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_BMView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:35,2023-12-28 10:15:36,0.321s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:36,2023-12-28 10:15:36,0.331s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:36,2023-12-28 10:15:36,0.336s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_Tickets""))",Chrome 120.0.0.0,,,2023-12-28 10:15:36,2023-12-28 10:15:37,0.648s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Open""), ""Open"")",Chrome 120.0.0.0,,,2023-12-28 10:15:37,2023-12-28 10:15:37,0.410s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Tickets""), ""Tickets"")",Chrome 120.0.0.0,,,2023-12-28 10:15:37,2023-12-28 10:15:38,0.388s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_TicketsView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:15:38,2023-12-28 10:15:38,0.335s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-28 10:15:38,2023-12-28 10:15:39,0.716s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC002_Admin_LandingPage,Chrome 120.0.0.0,,,2023-12-28 10:15:39,2023-12-28 10:16:28,49.801s,FAILED
+"callTestCase(findTestCase(""Sprint 1/CommandCenter_LoginTC/TC003_LoginValidCredentials_Admin""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:15:39,2023-12-28 10:16:28,49.492s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC003_AP_Dashboard,Chrome 120.0.0.0,,,2023-12-28 10:16:29,2023-12-28 10:17:05,36.673s,PASSED
+"callTestCase(findTestCase(""Sprint 1/CommandCenter_LoginTC/TC002_LoginValidCredentials_AP""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:16:29,2023-12-28 10:16:51,22.635s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Watsons Command Center""), ""Watsons Command Center"")",Chrome 120.0.0.0,,,2023-12-28 10:16:51,2023-12-28 10:16:52,0.306s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Home""), ""Home"")",Chrome 120.0.0.0,,,2023-12-28 10:16:52,2023-12-28 10:16:52,0.350s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Reports""), ""Reports"")",Chrome 120.0.0.0,,,2023-12-28 10:16:52,2023-12-28 10:16:52,0.312s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin""), 2)",Chrome 120.0.0.0,,,2023-12-28 10:16:52,2023-12-28 10:16:53,0.436s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Ticket""), ""Ticket"")",Chrome 120.0.0.0,,,2023-12-28 10:16:53,2023-12-28 10:16:53,0.335s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload""), ""Upload"")",Chrome 120.0.0.0,,,2023-12-28 10:16:53,2023-12-28 10:16:54,0.314s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail""), 2)",Chrome 120.0.0.0,,,2023-12-28 10:16:54,2023-12-28 10:16:54,0.335s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:54,2023-12-28 10:16:54,0.328s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:54,2023-12-28 10:16:55,0.337s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:55,2023-12-28 10:16:55,0.349s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:55,2023-12-28 10:16:55,0.327s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:55,2023-12-28 10:16:56,0.345s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:56,2023-12-28 10:16:56,0.379s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_Form2307""))",Chrome 120.0.0.0,,,2023-12-28 10:16:56,2023-12-28 10:16:57,0.593s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_UnreadForm2307""), ""Unread"")",Chrome 120.0.0.0,,,2023-12-28 10:16:57,2023-12-28 10:16:57,0.345s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Form 2307""), ""Form 2307"")",Chrome 120.0.0.0,,,2023-12-28 10:16:57,2023-12-28 10:16:57,0.338s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/buttonForm2307_View All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:57,2023-12-28 10:16:58,0.357s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:58,2023-12-28 10:16:58,0.347s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:58,2023-12-28 10:16:58,0.320s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_RemittanceAdvice""))",Chrome 120.0.0.0,,,2023-12-28 10:16:58,2023-12-28 10:16:59,0.579s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_UnreadRA""), ""Unread"")",Chrome 120.0.0.0,,,2023-12-28 10:16:59,2023-12-28 10:16:59,0.320s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Remittance Advice""), ""Remittance Advice"")",Chrome 120.0.0.0,,,2023-12-28 10:16:59,2023-12-28 10:16:59,0.342s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_RAView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:16:59,2023-12-28 10:17:00,0.319s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:00,2023-12-28 10:17:00,0.331s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:00,2023-12-28 10:17:00,0.327s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_BulletinMemo""))",Chrome 120.0.0.0,,,2023-12-28 10:17:00,2023-12-28 10:17:01,0.670s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_PublishedBM""), ""Published"")",Chrome 120.0.0.0,,,2023-12-28 10:17:01,2023-12-28 10:17:01,0.335s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Bulletin Memo""), ""Bulletin Memo"")",Chrome 120.0.0.0,,,2023-12-28 10:17:01,2023-12-28 10:17:02,0.351s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_BMView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:02,2023-12-28 10:17:02,0.349s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:02,2023-12-28 10:17:03,0.378s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:03,2023-12-28 10:17:03,0.349s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_Tickets""))",Chrome 120.0.0.0,,,2023-12-28 10:17:03,2023-12-28 10:17:03,0.617s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Open""), ""Open"")",Chrome 120.0.0.0,,,2023-12-28 10:17:03,2023-12-28 10:17:04,0.365s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Tickets""), ""Tickets"")",Chrome 120.0.0.0,,,2023-12-28 10:17:04,2023-12-28 10:17:04,0.329s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_TicketsView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:04,2023-12-28 10:17:05,0.332s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-28 10:17:05,2023-12-28 10:17:05,0.667s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC004_Vendor_Dashboard,Chrome 120.0.0.0,,,2023-12-28 10:17:05,2023-12-28 10:18:10,1m - 4.577s,PASSED
+"callTestCase(findTestCase(""Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:17:05,2023-12-28 10:17:56,50.627s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:17:56,2023-12-28 10:17:56,0.300s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Home""), ""Home"")",Chrome 120.0.0.0,,,2023-12-28 10:17:56,2023-12-28 10:17:57,0.334s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Reports""), ""Reports"")",Chrome 120.0.0.0,,,2023-12-28 10:17:57,2023-12-28 10:17:57,0.307s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Admin""), 2)",Chrome 120.0.0.0,,,2023-12-28 10:17:57,2023-12-28 10:17:57,0.356s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/VendorMenu/vendorMenu_Ticket""), ""Ticket"")",Chrome 120.0.0.0,,,2023-12-28 10:17:57,2023-12-28 10:17:58,0.345s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Upload""), 2)",Chrome 120.0.0.0,,,2023-12-28 10:17:58,2023-12-28 10:17:58,0.335s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_Homescreen/SuperAdminMenu/menu_Audit Trail""), 2)",Chrome 120.0.0.0,,,2023-12-28 10:17:58,2023-12-28 10:17:58,0.359s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:58,2023-12-28 10:17:59,0.357s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:59,2023-12-28 10:17:59,0.363s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:59,2023-12-28 10:17:59,0.334s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/container_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:17:59,2023-12-28 10:18:00,0.325s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:00,2023-12-28 10:18:00,0.350s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_Form2307""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:00,2023-12-28 10:18:00,0.315s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_Form2307""))",Chrome 120.0.0.0,,,2023-12-28 10:18:00,2023-12-28 10:18:01,0.613s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_UnreadForm2307""), ""Unread"")",Chrome 120.0.0.0,,,2023-12-28 10:18:01,2023-12-28 10:18:01,0.351s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Form 2307""), ""Form 2307"")",Chrome 120.0.0.0,,,2023-12-28 10:18:01,2023-12-28 10:18:02,0.366s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/buttonForm2307_View All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:02,2023-12-28 10:18:02,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:02,2023-12-28 10:18:02,0.300s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_RemittanceAdvice""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:02,2023-12-28 10:18:03,0.317s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_RemittanceAdvice""))",Chrome 120.0.0.0,,,2023-12-28 10:18:03,2023-12-28 10:18:03,0.614s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_UnreadRA""), ""Unread"")",Chrome 120.0.0.0,,,2023-12-28 10:18:03,2023-12-28 10:18:04,0.384s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Remittance Advice""), ""Remittance Advice"")",Chrome 120.0.0.0,,,2023-12-28 10:18:04,2023-12-28 10:18:04,0.362s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_RAView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:04,2023-12-28 10:18:04,0.307s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:04,2023-12-28 10:18:05,0.352s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_BulletinMemo""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:05,2023-12-28 10:18:05,0.321s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_BulletinMemo""))",Chrome 120.0.0.0,,,2023-12-28 10:18:05,2023-12-28 10:18:06,0.581s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_PublishedBM""), ""Published"")",Chrome 120.0.0.0,,,2023-12-28 10:18:06,2023-12-28 10:18:06,0.371s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Bulletin Memo""), ""Bulletin Memo"")",Chrome 120.0.0.0,,,2023-12-28 10:18:06,2023-12-28 10:18:06,0.342s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_BMView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:06,2023-12-28 10:18:07,0.376s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/counter_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:07,2023-12-28 10:18:07,0.381s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/icon_Tickets""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:07,2023-12-28 10:18:07,0.376s,PASSED
+"takeElementScreenshot(findTestObject(""Object Repository/Page_Homescreen/icon_Tickets""))",Chrome 120.0.0.0,,,2023-12-28 10:18:07,2023-12-28 10:18:08,0.582s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Open""), ""Open"")",Chrome 120.0.0.0,,,2023-12-28 10:18:08,2023-12-28 10:18:08,0.333s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/label_Tickets""), ""Tickets"")",Chrome 120.0.0.0,,,2023-12-28 10:18:08,2023-12-28 10:18:09,0.344s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Homescreen/button_TicketsView All""), 0)",Chrome 120.0.0.0,,,2023-12-28 10:18:09,2023-12-28 10:18:09,0.334s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-28 10:18:09,2023-12-28 10:18:10,0.695s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC005_ViewUnreadRA,Chrome 120.0.0.0,,,2023-12-28 10:18:10,2023-12-28 10:19:20,1m - 9.984s,PASSED
+"callTestCase(findTestCase(""Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:18:10,2023-12-28 10:19:07,56.976s,PASSED
+"unRead_RA = getText(findTestObject(""Object Repository/Page_Homescreen/counter_RemittanceAdvice""))",Chrome 120.0.0.0,,,2023-12-28 10:19:07,2023-12-28 10:19:09,1.856s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen/counter_RemittanceAdvice""))",Chrome 120.0.0.0,,,2023-12-28 10:19:09,2023-12-28 10:19:11,2.137s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/popupUnread_Remittance Advice""), ""Remittance Advice"")",Chrome 120.0.0.0,,,2023-12-28 10:19:11,2023-12-28 10:19:13,1.956s,PASSED
+isMatch = false,Chrome 120.0.0.0,,,2023-12-28 10:19:13,2023-12-28 10:19:13,0.000s,PASSED
+driver = getWebDriver(),Chrome 120.0.0.0,,,2023-12-28 10:19:13,2023-12-28 10:19:13,0.001s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""RAPopUp""]/div/div[2]""))",Chrome 120.0.0.0,,,2023-12-28 10:19:13,2023-12-28 10:19:15,1.930s,PASSED
+"table_row = Table.findElements(By.className(""list-item""))",Chrome 120.0.0.0,,,2023-12-28 10:19:15,2023-12-28 10:19:17,2.040s,PASSED
+rows_count = table_row.size(),Chrome 120.0.0.0,,,2023-12-28 10:19:17,2023-12-28 10:19:17,0.001s,PASSED
+println($rows_count),Chrome 120.0.0.0,,,2023-12-28 10:19:17,2023-12-28 10:19:17,0.017s,PASSED
+"verifyEqual(unRead_RA, rows_count)",Chrome 120.0.0.0,,,2023-12-28 10:19:17,2023-12-28 10:19:17,0.009s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen/close_Icon""))",Chrome 120.0.0.0,,,2023-12-28 10:19:17,2023-12-28 10:19:19,2.055s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-28 10:19:19,2023-12-28 10:19:20,0.678s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC006_ViewUnreadForm2307,Chrome 120.0.0.0,,,2023-12-28 10:19:20,2023-12-28 10:20:14,54.497s,PASSED
+"callTestCase(findTestCase(""Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:19:20,2023-12-28 10:20:11,51.200s,PASSED
+"unRead_Form2307 = getText(findTestObject(""Object Repository/Page_Homescreen/counter_Form2307""))",Chrome 120.0.0.0,,,2023-12-28 10:20:11,2023-12-28 10:20:12,0.346s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen/counter_Form2307""))",Chrome 120.0.0.0,,,2023-12-28 10:20:12,2023-12-28 10:20:12,0.379s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/popupUnread_Form 2307""), ""Form 2307"")",Chrome 120.0.0.0,,,2023-12-28 10:20:12,2023-12-28 10:20:13,0.553s,PASSED
+isMatch = false,Chrome 120.0.0.0,,,2023-12-28 10:20:13,2023-12-28 10:20:13,0.001s,PASSED
+driver = getWebDriver(),Chrome 120.0.0.0,,,2023-12-28 10:20:13,2023-12-28 10:20:13,0.000s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""Form2307Pop""]/div/div[2]""))",Chrome 120.0.0.0,,,2023-12-28 10:20:13,2023-12-28 10:20:13,0.300s,PASSED
+"table_row = Table.findElements(By.className(""list-item""))",Chrome 120.0.0.0,,,2023-12-28 10:20:13,2023-12-28 10:20:13,0.310s,PASSED
+rows_count = table_row.size(),Chrome 120.0.0.0,,,2023-12-28 10:20:13,2023-12-28 10:20:13,0.001s,PASSED
+println($rows_count),Chrome 120.0.0.0,,,2023-12-28 10:20:13,2023-12-28 10:20:13,0.001s,PASSED
+"verifyEqual(unRead_Form2307, rows_count)",Chrome 120.0.0.0,,,2023-12-28 10:20:13,2023-12-28 10:20:13,0.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen/close_Icon""))",Chrome 120.0.0.0,,,2023-12-28 10:20:13,2023-12-28 10:20:14,0.413s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-28 10:20:14,2023-12-28 10:20:14,0.692s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC007_ViewPublishedBulletinMemo,Chrome 120.0.0.0,,,2023-12-28 10:20:14,2023-12-28 10:21:09,54.835s,PASSED
+"callTestCase(findTestCase(""Test Cases/Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:20:15,2023-12-28 10:21:06,51.693s,PASSED
+"published_BM = getText(findTestObject(""Object Repository/Page_Homescreen/counter_BulletinMemo""))",Chrome 120.0.0.0,,,2023-12-28 10:21:06,2023-12-28 10:21:07,0.339s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen/counter_BulletinMemo""))",Chrome 120.0.0.0,,,2023-12-28 10:21:07,2023-12-28 10:21:07,0.418s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/popupPublished_Bulletin Memo""), ""Bulletin Memo"")",Chrome 120.0.0.0,,,2023-12-28 10:21:07,2023-12-28 10:21:07,0.452s,PASSED
+isMatch = false,Chrome 120.0.0.0,,,2023-12-28 10:21:07,2023-12-28 10:21:07,0.001s,PASSED
+driver = getWebDriver(),Chrome 120.0.0.0,,,2023-12-28 10:21:07,2023-12-28 10:21:07,0.000s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""BulletinListAll"" or @id=""BulletinListByVendor""]""))",Chrome 120.0.0.0,,,2023-12-28 10:21:07,2023-12-28 10:21:08,0.299s,PASSED
+"table_row = Table.findElements(By.className(""list-item""))",Chrome 120.0.0.0,,,2023-12-28 10:21:08,2023-12-28 10:21:08,0.285s,PASSED
+rows_count = table_row.size(),Chrome 120.0.0.0,,,2023-12-28 10:21:08,2023-12-28 10:21:08,0.000s,PASSED
+println($rows_count),Chrome 120.0.0.0,,,2023-12-28 10:21:08,2023-12-28 10:21:08,0.000s,PASSED
+"verifyEqual(published_BM, rows_count)",Chrome 120.0.0.0,,,2023-12-28 10:21:08,2023-12-28 10:21:08,0.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen/close_Icon""))",Chrome 120.0.0.0,,,2023-12-28 10:21:08,2023-12-28 10:21:08,0.381s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-28 10:21:08,2023-12-28 10:21:09,0.678s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC008_ViewOpenTickets,Chrome 120.0.0.0,,,2023-12-28 10:21:09,2023-12-28 10:22:03,53.866s,PASSED
+"callTestCase(findTestCase(""Sprint 1/VendorPortal_Login_TC/TC001_LoginValidCredentials_Vendor""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-28 10:21:09,2023-12-28 10:22:00,50.693s,PASSED
+"open_Tickets = getText(findTestObject(""Object Repository/Page_Homescreen/counter_Tickets""))",Chrome 120.0.0.0,,,2023-12-28 10:22:00,2023-12-28 10:22:00,0.347s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen/counter_Tickets""))",Chrome 120.0.0.0,,,2023-12-28 10:22:00,2023-12-28 10:22:01,0.401s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/popupOpen_Tickets""), ""Tickets"")",Chrome 120.0.0.0,,,2023-12-28 10:22:01,2023-12-28 10:22:01,0.458s,PASSED
+isMatch = false,Chrome 120.0.0.0,,,2023-12-28 10:22:01,2023-12-28 10:22:01,0.000s,PASSED
+driver = getWebDriver(),Chrome 120.0.0.0,,,2023-12-28 10:22:01,2023-12-28 10:22:01,0.001s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""BulletinListAll2"" or @id=""BulletinListByVendor2""]""))",Chrome 120.0.0.0,,,2023-12-28 10:22:01,2023-12-28 10:22:02,0.289s,PASSED
+"table_row = Table.findElements(By.className(""list-item""))",Chrome 120.0.0.0,,,2023-12-28 10:22:02,2023-12-28 10:22:02,0.295s,PASSED
+rows_count = table_row.size(),Chrome 120.0.0.0,,,2023-12-28 10:22:02,2023-12-28 10:22:02,0.001s,PASSED
+println($rows_count),Chrome 120.0.0.0,,,2023-12-28 10:22:02,2023-12-28 10:22:02,0.001s,PASSED
+"verifyEqual(open_Tickets, rows_count)",Chrome 120.0.0.0,,,2023-12-28 10:22:02,2023-12-28 10:22:02,0.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen/close_Icon""))",Chrome 120.0.0.0,,,2023-12-28 10:22:02,2023-12-28 10:22:02,0.394s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-28 10:22:02,2023-12-28 10:22:03,0.674s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC009_ViewUnreadRA_NoRecords,Chrome 120.0.0.0,,,2023-12-28 10:22:03,2023-12-28 10:22:56,53.170s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-28 10:22:03,2023-12-28 10:22:05,1.268s,PASSED
+navigateToUrl(URL_vendor),Chrome 120.0.0.0,,,2023-12-28 10:22:05,2023-12-28 10:22:06,1.152s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username""), ""12202023_VP"")",Chrome 120.0.0.0,,,2023-12-28 10:22:06,2023-12-28 10:22:09,2.981s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""xngilo02Z2BNHXedMmXvHw=="")",Chrome 120.0.0.0,,,2023-12-28 10:22:09,2023-12-28 10:22:09,0.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 120.0.0.0,,,2023-12-28 10:22:09,2023-12-28 10:22:10,0.587s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-28 10:22:10,2023-12-28 10:22:12,2.009s,PASSED
+"navigateToUrl(""https://10.143.206.85/NonTradeVendorPortal/"")",Chrome 120.0.0.0,,,2023-12-28 10:22:12,2023-12-28 10:22:12,0.450s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:22:12,2023-12-28 10:22:56,43.794s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC010_ViewUnreadForm2307_NoRecords,Chrome 120.0.0.0,,,2023-12-28 10:22:56,2023-12-28 10:23:48,52.260s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-28 10:22:57,2023-12-28 10:22:58,1.910s,PASSED
+navigateToUrl(URL_vendor),Chrome 120.0.0.0,,,2023-12-28 10:22:58,2023-12-28 10:22:59,0.675s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username""), ""12202023_VP"")",Chrome 120.0.0.0,,,2023-12-28 10:22:59,2023-12-28 10:23:01,2.346s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""xngilo02Z2BNHXedMmXvHw=="")",Chrome 120.0.0.0,,,2023-12-28 10:23:01,2023-12-28 10:23:02,0.637s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 120.0.0.0,,,2023-12-28 10:23:02,2023-12-28 10:23:03,0.522s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-28 10:23:03,2023-12-28 10:23:05,2.009s,PASSED
+"navigateToUrl(""https://10.143.206.85/NonTradeVendorPortal/"")",Chrome 120.0.0.0,,,2023-12-28 10:23:05,2023-12-28 10:23:05,0.413s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:23:05,2023-12-28 10:23:48,43.409s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC011_ViewPublishedBulletinMemo_NoRecords,Chrome 120.0.0.0,,,2023-12-28 10:23:48,2023-12-28 10:24:41,52.706s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-28 10:23:49,2023-12-28 10:23:51,1.846s,PASSED
+navigateToUrl(URL_vendor),Chrome 120.0.0.0,,,2023-12-28 10:23:51,2023-12-28 10:23:51,0.839s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username""), ""12202023_VP"")",Chrome 120.0.0.0,,,2023-12-28 10:23:51,2023-12-28 10:23:54,2.544s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""xngilo02Z2BNHXedMmXvHw=="")",Chrome 120.0.0.0,,,2023-12-28 10:23:54,2023-12-28 10:23:55,0.610s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 120.0.0.0,,,2023-12-28 10:23:55,2023-12-28 10:23:55,0.539s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-28 10:23:55,2023-12-28 10:23:57,2.009s,PASSED
+"navigateToUrl(""https://10.143.206.85/NonTradeVendorPortal/"")",Chrome 120.0.0.0,,,2023-12-28 10:23:57,2023-12-28 10:23:58,0.621s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:23:58,2023-12-28 10:24:41,43.395s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Dashboard_TC/TC012_ViewOpenTickets_NoRecords,Chrome 120.0.0.0,,,2023-12-28 10:24:41,2023-12-28 10:25:34,52.654s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-28 10:24:41,2023-12-28 10:24:43,1.821s,PASSED
+navigateToUrl(URL_vendor),Chrome 120.0.0.0,,,2023-12-28 10:24:43,2023-12-28 10:24:44,1.128s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username""), ""12202023_VP"")",Chrome 120.0.0.0,,,2023-12-28 10:24:44,2023-12-28 10:24:47,2.438s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""xngilo02Z2BNHXedMmXvHw=="")",Chrome 120.0.0.0,,,2023-12-28 10:24:47,2023-12-28 10:24:48,0.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 120.0.0.0,,,2023-12-28 10:24:48,2023-12-28 10:24:48,0.493s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-28 10:24:48,2023-12-28 10:24:50,2.004s,PASSED
+"navigateToUrl(""https://10.143.206.85/NonTradeVendorPortal/"")",Chrome 120.0.0.0,,,2023-12-28 10:24:50,2023-12-28 10:24:50,0.369s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Homescreen/titlePage_Dashboard""), ""Dashboard"")",Chrome 120.0.0.0,,,2023-12-28 10:24:50,2023-12-28 10:25:34,43.435s,FAILED
