@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_FilterByRoleAsSuperAdmin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c4731c1-8b42-43ec-aa06-18bc9874ffc3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b156eb9-0123-48ae-8c09-8a2cdb5f0990</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>1b156eb9-0123-48ae-8c09-8a2cdb5f0990</id>
+      <masked>false</masked>
+      <name>watsonsUser_SuperAdmin</name>
+   </variable>
+</TestCaseEntity>

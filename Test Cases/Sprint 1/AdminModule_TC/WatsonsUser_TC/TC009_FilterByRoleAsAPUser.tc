@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_FilterByRoleAsAPUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10c4f906-6667-406e-9c12-3be237c1ecc4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>155fd7a8-8cda-4231-8e1d-78b7e4151168</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(5, 2)</defaultValue>
+      <description></description>
+      <id>155fd7a8-8cda-4231-8e1d-78b7e4151168</id>
+      <masked>false</masked>
+      <name>watsonsUser_APuser</name>
+   </variable>
+</TestCaseEntity>

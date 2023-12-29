@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010_FilterByRoleAsAdmin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04c42ba4-da33-4ed0-9ef3-9c227caf6e80</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0b99216-7846-4131-9762-3082e8ae36bb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(5, 3)</defaultValue>
+      <description></description>
+      <id>e0b99216-7846-4131-9762-3082e8ae36bb</id>
+      <masked>false</masked>
+      <name>watsonsUser_Admin</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_SearchByUpdatedBy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9d8e295-c3ba-485f-9eb9-a2ca1e100632</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>137d46f5-dd55-4428-924f-f2fbf473b1ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>137d46f5-dd55-4428-924f-f2fbf473b1ae</id>
+      <masked>false</masked>
+      <name>watsonsUser_UpdatedBy</name>
+   </variable>
+</TestCaseEntity>

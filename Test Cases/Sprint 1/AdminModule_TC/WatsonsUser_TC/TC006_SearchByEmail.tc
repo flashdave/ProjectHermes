@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_SearchByEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>245f84c0-3bb4-43e9-baaf-7d98fe924ab0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51397a75-49dc-4692-8b01-cd2e3f404378</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>51397a75-49dc-4692-8b01-cd2e3f404378</id>
+      <masked>false</masked>
+      <name>watsonsUser_Email</name>
+   </variable>
+</TestCaseEntity>
