@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>userAccount_Name</name>
+   <tag></tag>
+   <elementGuidId>04d93d6d-0532-46a1-96fe-3e771deb94dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.margin-left-s > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b14-$b5']/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c9132058-b075-412f-9fd0-3d823eaad67f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b14-$b5&quot;)/div[@class=&quot;user-info&quot;]/div[1]/div[@class=&quot;margin-left-s&quot;]/span[1]</value>
+      <webElementGuid>7237fd4c-f79d-4df3-916b-63e107d4d397</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b14-$b5']/div/div/div/span</value>
+      <webElementGuid>6fd46b06-c770-4ec8-836f-050237eba1ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/following::span[1]</value>
+      <webElementGuid>94baaada-1560-4eee-8c40-a48e88e99300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ticket'])[1]/following::span[2]</value>
+      <webElementGuid>d7201928-f0b5-41ae-8768-21a00ddc055e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::span[1]</value>
+      <webElementGuid>73ae0ecd-2c34-4dba-9da2-24436a5fc385</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watsons User Role &amp; Access'])[1]/preceding::span[2]</value>
+      <webElementGuid>8c660ac5-8a11-4d36-b93b-aa76720b5c51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mobarak Dimalotang']/parent::*</value>
+      <webElementGuid>40a1e061-91b6-4d17-8b72-b6d5cdacf626</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/span</value>
+      <webElementGuid>dfb0d8c2-c42b-46e7-ba42-b09c9350456a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Mobarak Dimalotang' or . = 'Mobarak Dimalotang')]</value>
+      <webElementGuid>ea29d48c-71cd-4919-ad75-14c3a31033c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

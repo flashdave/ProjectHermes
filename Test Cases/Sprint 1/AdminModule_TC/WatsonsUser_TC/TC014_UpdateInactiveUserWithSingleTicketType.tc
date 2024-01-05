@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014_UpdateInactiveUserWithSingleTicketType</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a36e938-2921-4a5a-a9f1-7590f2e74b41</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8056a7c-a8ec-43e9-849a-1ef96dc4c148</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bad246f1-13bc-4f96-ac09-418b6cd15b64</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd1f333b-e713-43cb-8702-9b9a1e031e5b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>a8056a7c-a8ec-43e9-849a-1ef96dc4c148</id>
+      <masked>false</masked>
+      <name>watsons_Username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>bad246f1-13bc-4f96-ac09-418b6cd15b64</id>
+      <masked>false</masked>
+      <name>watsons_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(5, 2)</defaultValue>
+      <description></description>
+      <id>cd1f333b-e713-43cb-8702-9b9a1e031e5b</id>
+      <masked>false</masked>
+      <name>watsons_Role</name>
+   </variable>
+</TestCaseEntity>

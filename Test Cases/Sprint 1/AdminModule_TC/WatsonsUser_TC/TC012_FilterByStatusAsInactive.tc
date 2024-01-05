@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC012_FilterByStatusAsInactive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb3edd65-3840-4666-8cef-abd1058a0228</testCaseGuid>
+</TestCaseEntity>

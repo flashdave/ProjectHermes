@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011_FilterByTicketType</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10beea5d-dc10-4aa4-bff6-96fa4c4fd88e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6d2845a-b7a1-4c18-9dcd-5725c0cc3477</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Watsons User').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>e6d2845a-b7a1-4c18-9dcd-5725c0cc3477</id>
+      <masked>false</masked>
+      <name>watsonsUser_TicketType</name>
+   </variable>
+</TestCaseEntity>
